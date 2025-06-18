@@ -44,7 +44,11 @@ to regsiter gender , Firstname , Lastname , email , company , password , confirm
 	if imagefound(text:"The specified email already exists") 
 	then 
 		login
-	else
+	else if Imagefound(text:"Check your saved passwords")
+	then 
+		click text:"close"
+	end if
+	if  imagefound(text:"Your registration completed")
 		assert that imagefound(text:"Your registration completed")
 		click text:"CONTINUE"
 	end if
@@ -161,7 +165,7 @@ to orderProduct Firstname , Lastname , Email , Company
 end orderProduct
 
 to logout
-	click text:"Log out"
+	click text:"Log out",ignoreSpaces:yes
 end logout
 
 to closeNopcommercetab
