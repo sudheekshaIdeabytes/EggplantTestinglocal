@@ -11,7 +11,7 @@
 "ApplicationUtilities/Nopcommerce".logout
 "ApplicationUtilities/Nopcommerce".closeNopcommercetab
 "ApplicationUtilities/Nopcommerce".closebrowserwindow
-
+//add a new comment to pull the request
 
 (*"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"
 
