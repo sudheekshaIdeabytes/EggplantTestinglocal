@@ -1,3 +1,0 @@
-﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
-2024-10-29 09:46:50.153 +0530,"Success",0:00:00,0,0,0,"20241029_094650.153/LogFile.txt","{chrome:[2,86,1916,1032], default:[], mainContent:[432,138,1450,1031], runWindow:[0,750,530,1029]}","",1
-2024-10-29 09:53:18.301 +0530,"Success",0:00:04,0,0,0,"20241029_095318.301/LogFile.txt","{chrome:[2,86,1916,1032], default:[], mainContent:[432,138,1450,1031], runWindow:[0,750,530,1029]}","",1

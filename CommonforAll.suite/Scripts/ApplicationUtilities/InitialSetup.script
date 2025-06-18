@@ -1,6 +1,0 @@
-﻿to launchIRISApplication
-	Run "DataHandlingUtilities/VariableData"
-	"CommonUtilities/Core".launchApplication Global appPath
-	-- Add verification once the application is launched
-	"CommonUtilities/CustomCore".captureScreenShot "ApplicationView"
-end launchIRISApplication

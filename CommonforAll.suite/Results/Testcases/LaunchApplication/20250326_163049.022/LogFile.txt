@@ -1,4 +1,0 @@
-﻿2025-03-26 16:30:49.032 +0530	START		Running Testcases/LaunchApplication.script
-2025-03-26 16:30:49.095 +0530	Connect		Mymachine:(null)	2	on_connectsut	CommonUtilities/Core.script
-2025-03-26 16:31:09.144 +0530	EndTestCase		(Duration:"20.104", Errors:"0", Exceptions:"0", StartTime:"2025-03-26 16:30:49 +0530", Successes:"1", TestCase:"Testcases/LaunchApplication.script", Warnings:"0")
-2025-03-26 16:31:09.195 +0530	SUCCESS		Execution Time 0:00:20 Testcases/LaunchApplication.script
