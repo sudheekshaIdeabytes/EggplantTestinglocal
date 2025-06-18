@@ -13,13 +13,13 @@
 "ApplicationUtilities/Nopcommerce".closebrowserwindow
 
 
-"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"
+(*"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"
 
 Connect serverID:"192.168.1.171", portNum:3389, password:"Ideabytes", type:"rdp"
 
 connect "81_Machine"
 
-Connect serverID:"192.168.1.171", portNum:3389, password:"Ideabytes", type:"rdp"
+Connect serverID:"192.168.1.171", portNum:3389, password:"Ideabytes", type:"rdp"*)
 
 
 
