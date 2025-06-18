@@ -1,0 +1,9 @@
+﻿
+//Environment Wait
+set universal pagewait to 30
+
+--set Global Application path to "provide file location"
+set Global appPath to ""
+
+
+--

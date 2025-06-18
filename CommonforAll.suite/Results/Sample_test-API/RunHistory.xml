@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Sample_test-API">
+ <run>
+  <RunDate>2025-03-02 23:12:54.349 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.369000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250302_231254.349/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;responsebody&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-02 23:13:07.015 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.230000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250302_231307.015/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-02 23:14:00.112 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.517000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250302_231400.112/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

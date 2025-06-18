@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="CommonUtilities/Config_script" package="SampleFramework.suite" timestamp="2024-10-29 09:46:50.153 +0530"
+ tests="1"  failures="0" errors="0" time="0.163000">
+  <properties>
+   <property name="RunDate" value="2024-10-29 09:46:50.153 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="CommonUtilities/Config.script" assertions="1" status="success"  time="0.127">
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,4 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2025-03-02 23:12:54.349 +0530,"Failure",0:00:00,1,0,0,"20250302_231254.349/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'responsebody'",0
+2025-03-02 23:13:07.015 +0530,"Success",0:00:00,0,0,0,"20250302_231307.015/LogFile.txt","","",1
+2025-03-02 23:14:00.112 +0530,"Success",0:00:00,0,0,0,"20250302_231400.112/LogFile.txt","","",1

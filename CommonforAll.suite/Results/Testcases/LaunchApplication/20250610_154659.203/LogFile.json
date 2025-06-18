@@ -1,0 +1,69 @@
+{
+	"entries": [
+		{
+				"message": "Running Testcases/LaunchApplication.script",
+				"identifier": "START",
+				"timestamp": "2025-06-10 15:46:59.227 +0530"
+			},
+		{
+				"handlerName": "on_connectsut",
+				"timestamp": "2025-06-10 15:46:59.425 +0530",
+				"message": "Mymachine:(null)",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_openrunwindow",
+				"timestamp": "2025-06-10 15:47:34.522 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_openrunwindow",
+				"timestamp": "2025-06-10 15:47:35.889 +0530",
+				"scriptName": "CommonUtilities/Core.script",
+				"message": "found at (117, 845)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 4,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2025-06-10 15:47:37.699 +0530",
+				"message": "Chrome https://demo.nopcommerce.com/ --start-Maximized[returnKey]",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_launchurl",
+				"timestamp": "2025-06-10 15:47:38.576 +0530",
+				"message": "SEARCHRECTANGLE = ",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 6,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_openapplication",
+				"timestamp": "2025-06-10 15:47:53.933 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "ApplicationUtilities/Nopcommerce.script",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"54.764\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2025-06-10 15:46:59 +0530\", Successes:\"0\", TestCase:\"Testcases/LaunchApplication.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-06-10 15:47:54.018 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:54 Testcases/LaunchApplication.script",
+				"identifier": "ABORTED",
+				"timestamp": "2025-06-10 15:47:54.051 +0530"
+			}
+	],
+	"createdTimestamp": "2025-06-10 15:46:59.251 +0530"
+}

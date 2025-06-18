@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Testcases/LaunchApplication_script" package="CommonforAll.suite" timestamp="2025-03-27 10:09:56.709 +0530"
+ tests="1"  failures="0" errors="0" time="261.455000">
+  <properties>
+   <property name="RunDate" value="2025-03-27 10:09:56.709 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Testcases/LaunchApplication.script" assertions="5" status="success"  time="261.441">
+  </testcase>
+ </testsuite>
+</testsuites>

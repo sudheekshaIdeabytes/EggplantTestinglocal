@@ -1,0 +1,15 @@
+﻿to createScreenshotFolder
+	put the date into folderNameAsDate 
+	replace every occurrence of "/" with "" in folderNameAsDate 
+	if not folder ResourcePath("Screenshots"&"/"&folderNameAsDate) exists then create folder ResourcePath("Screenshots"&"/"&folderNameAsDate) 
+	return ResourcePath("Screenshots"&"/"&folderNameAsDate)
+end createScreenshotFolder
+
+to captureScreenShot screenShotName
+	CaptureScreen name:createScreenshotFolder()&"/"&screenShotName, increment:Yes
+end captureScreenShot
+
+to clickDesiredElement  myObject, input
+	put EveryImageLocation(text:myObject) into myObjectLocs
+	"CommonUtilities/Core".clickAtLocation item input of myObjectLocs
+end clickDesiredElement

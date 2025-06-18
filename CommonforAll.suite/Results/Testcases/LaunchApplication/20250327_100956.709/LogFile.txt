@@ -1,0 +1,104 @@
+﻿2025-03-27 10:09:56.716 +0530	START		Running Testcases/LaunchApplication.script
+2025-03-27 10:10:10.501 +0530	Connect		Mymachine:(null)	2	on_connectsut	CommonUtilities/Core.script
+2025-03-27 10:10:31.164 +0530	typetext		[windowsKey]r	2	on_openrunwindow	CommonUtilities/Core.script
+2025-03-27 10:10:35.633 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	4	on_openrunwindow	CommonUtilities/Core.script
+2025-03-27 10:10:37.527 +0530	typetext		Chrome https://demo.nopcommerce.com/ --start-Maximized[returnKey]	3	on_launchurl	CommonUtilities/Core.script
+2025-03-27 10:10:38.556 +0530	set		SEARCHRECTANGLE = 	6	on_launchurl	CommonUtilities/Core.script
+2025-03-27 10:10:48.450 +0530	imagefound	(TEXT:"Welcome to our store")	found at (952, 885)	4	on_openapplication	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:10:48.455 +0530	LogSuccess		Assertion Succeeded: (true: ImageFound(text:"Welcome to our store"))	4	on_openapplication	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:10:51.439 +0530	click	(TEXT:"register")	at (1209, 108)	2	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:10:59.684 +0530	imagefound	(TEXT:"Your Personal Details")	found at (951, 449)	3	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:10:59.689 +0530	LogSuccess		Assertion Succeeded: (true: imagefound(text:"Your Personal Details"))	3	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:01.428 +0530	click	(TEXT:"Female")	at (856, 524)	4	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:03.432 +0530	imagelocation	(TEXT:"First name")	at (705, 575)	5	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:03.555 +0530	click		at (775, 575)	5	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:04.444 +0530	typetext		sudhee	6	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:06.752 +0530	imagelocation	(TEXT:"Last name")	at (705, 630)	7	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:06.868 +0530	click		at (775, 630)	7	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:07.707 +0530	typetext		gunu	8	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:10.105 +0530	imagelocation	(TEXT:"Email")	at (720, 685)	9	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:10.216 +0530	click		at (770, 685)	9	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:11.340 +0530	typetext		abc@gmail.com	10	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:13.289 +0530	imagelocation	(TEXT:"Company name")	at (688, 880)	11	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:13.401 +0530	click		at (738, 880)	11	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:14.398 +0530	typetext		Ideabytes	12	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:15.103 +0530	scrollwheeldown		moved 7	14	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:16.768 +0530	click	(TEXT:"Your Password")	at (885, 627)	15	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:17.518 +0530	typetext		[controlKey]a	16	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:18.418 +0530	typetext		123456	17	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:20.313 +0530	imagelocation	(TEXT:"Confirm")	at (649, 698)	18	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:20.426 +0530	click		at (649, 698)	18	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:21.177 +0530	typetext		[controlKey]a	19	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:22.085 +0530	typetext		123456	20	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:22.923 +0530	imagelocation	REGISTER	at (948, 823)	21	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:23.035 +0530	click		at (948, 823)	21	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:52.292 +0530	imagefound	(TEXT:"The specified email already exists")	Unable to Find Image (TEXT:"The specified email already exists"). Text not found.	22	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:54.345 +0530	imagefound	(TEXT:"Your registration completed")	found at (951, 478)	26	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:54.349 +0530	LogSuccess		Assertion Succeeded: (true: imagefound(text:"Your registration completed"))	26	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:56.522 +0530	click	(TEXT:"CONTINUE")	at (951, 555)	27	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:11:58.984 +0530	imagefound	(TEXT:"Check your saved passwords")	found at (858, 235)	29	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:12:01.065 +0530	click	(TEXT:"close")	at (1131, 364)	29	on_regsiter	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:12:03.309 +0530	imagefound	(TEXT:"Log out")	found at (1276, 108)	2	on_login	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:12:05.717 +0530	click	(TEXT:"Books")	at (1131, 292)	2	on_addtocart	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:12:06.706 +0530	click	product	at (1123, 715)	3	on_addtocart	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:12:13.268 +0530	click	(TEXT:"ADD TO CART")	at (1047, 767)	5	on_addtocart	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:00.395 +0530	imagefound	(TEXT:"The product has been added to the shopping cart")	Unable to Find Image (TEXT:"The product has been added to the shopping cart"). Text not found.	6	on_addtocart	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:00.618 +0530	click	shoppingcart	at (1427, 111)	10	on_addtocart	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:01.417 +0530	imagefound	Shoppingcart_text	found at (910, 392)	2	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:01.421 +0530	LogSuccess		You are in the shopping cart page	3	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:01.556 +0530	imagefound	termsAndConditions_checkBox.png	found at (1204, 1003)	4	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:01.677 +0530	click		at (1204, 1003)	7	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:02.378 +0530	scrollwheeldown		moved 2	8	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:05.114 +0530	click	(TEXT:"CHECKOUT")	at (1452, 864)	9	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:10.494 +0530	waitfor	(TEXT:" ship to the same address")	found at (958, 176)	10	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:11.587 +0530	imagefound	(TEXT:"First name")	found at (720, 264)	11	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:12.733 +0530	imagelocation	(TEXT:"First name")	at (720, 264)	12	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:12.848 +0530	click		at (790, 264)	12	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:13.601 +0530	typetext		[controlKey]a	13	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:14.493 +0530	typetext		sudhee	14	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:16.469 +0530	imagelocation	(TEXT:"Last name")	at (720, 319)	15	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:16.589 +0530	click		at (790, 319)	15	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:17.340 +0530	typetext		[controlKey]a	16	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:18.180 +0530	typetext		gunu	17	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:20.239 +0530	imagelocation	(TEXT:"Email")	at (735, 374)	18	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:20.350 +0530	click		at (785, 374)	18	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:21.099 +0530	typetext		[controlKey]a	19	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:22.222 +0530	typetext		abc@gmail.com	20	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:24.338 +0530	imagelocation	(TEXT:"Company")	at (723, 430)	21	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:24.457 +0530	click		at (773, 430)	21	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:25.207 +0530	typetext		[controlKey]a	22	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:26.219 +0530	typetext		Ideabytes	23	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:28.435 +0530	click	(TEXT:"Country")	at (728, 485)	24	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:29.339 +0530	typetext		India[return]	25	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:31.421 +0530	click	(TEXT:"State")	at (672, 539)	26	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:32.459 +0530	typetext		Telangana[return]	27	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:35.315 +0530	click	(TEXT:"City")	at (740, 595)	28	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:36.048 +0530	typetext		[pageDown]	29	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:37.062 +0530	typetext		Hyderabad	30	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:39.118 +0530	click	(TEXT:"Address 1")	at (720, 149)	31	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:39.911 +0530	typetext		abc	32	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:41.756 +0530	click	(TEXT:"Zip")	at (660, 260)	33	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:42.645 +0530	typetext		517520	34	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:44.800 +0530	click	(TEXT:"Phone")	at (681, 314)	35	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:45.824 +0530	typetext		1234567890	36	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:48.099 +0530	click	(TEXT:"CONTINUE")	at (951, 482)	37	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:50.412 +0530	imagefound	(TEXT:"Save address?")	found at (1530, 220)	38	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:52.233 +0530	click	(TEXT:"No, thanks")	at (1712, 398)	38	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:53.969 +0530	imagefound	(TEXT:"Shipping method")	found at (520, 63)	41	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:55.222 +0530	click	(TEXT:"CONTINUE")	at (951, 379)	42	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:57.152 +0530	imagefound	(TEXT:"Payment method")	found at (520, 63)	46	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:13:58.787 +0530	click	(TEXT:"CONTINUE")	at (951, 456)	47	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:01.069 +0530	imagefound	(TEXT:"Payment information")	found at (482, 561)	51	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:02.876 +0530	click	(TEXT:"CONTINUE")	at (951, 461)	52	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:06.518 +0530	imagefound	CONFIRM	Unable to Find Image CONFIRM	56	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:06.551 +0530	typetext		[downArrow]	57	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:10.165 +0530	imagefound	CONFIRM	Unable to Find Image CONFIRM	58	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:10.208 +0530	typetext		[downArrow]	57	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:11.100 +0530	imagefound	CONFIRM	found at (947, 1000)	58	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:11.208 +0530	click		at (947, 1000)	59	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:17.217 +0530	imagefound	(TEXT:"Your order has been successfully processed!")	found at (950, 451)	60	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:17.221 +0530	LogSuccess		Assertion Succeeded: (true: ImageFound(text:"Your order has been successfully processed!"))	60	on_orderproduct	ApplicationUtilities/Nopcommerce.script
+2025-03-27 10:14:17.370 +0530	typetext		[controlKey]w	2	on_closefocusedtab	CommonUtilities/BrowserSC.script
+2025-03-27 10:14:18.124 +0530	typetext		[windowsAltKey][F4]	2	on_terminatecurrentwindow	CommonUtilities/BrowserSC.script
+2025-03-27 10:14:18.165 +0530	EndTestCase		(Duration:"261.441", Errors:"0", Exceptions:"0", StartTime:"2025-03-27 10:09:56 +0530", Successes:"5", TestCase:"Testcases/LaunchApplication.script", Warnings:"0")
+2025-03-27 10:14:18.218 +0530	SUCCESS		Execution Time 0:04:21 Testcases/LaunchApplication.script
