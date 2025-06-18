@@ -1,0 +1,17 @@
+﻿2025-02-24 15:46:36.723 +0530	START		Running LogintoNopcommerce.script
+2025-02-24 15:46:36.845 +0530	Connect		Mymachine:(null)	2	on_connectsut	CommonHandlers.script
+2025-02-24 15:46:46.898 +0530	typetext		[windowsKey]r	2	on_opennopcommerce	CommonHandlers.script
+2025-02-24 15:46:53.069 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 15:46:54.333 +0530	typetext		Chrome https:\\demo.nopcommerce.com[return]	4	on_opennopcommerce	CommonHandlers.script
+2025-02-24 15:46:56.070 +0530	waitfor	(TEXT:"Welcome")	found at (871, 937)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 15:46:56.177 +0530	LogSuccess		Successfully opened the nopcommerce application	6	on_opennopcommerce	CommonHandlers.script
+2025-02-24 15:46:57.561 +0530	click	(TEXT:"Log in")	at (1278, 160)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 15:47:00.255 +0530	click	(TEXT:"Email")	at (1051, 580)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 15:47:01.003 +0530	typetext		[controlKey]a	3	on_textentry	CommonHandlers.script
+2025-02-24 15:47:02.332 +0530	typetext		 Eggplant@gmail.com	4	on_textentry	CommonHandlers.script
+2025-02-24 15:47:04.617 +0530	click	(TEXT:"Password")	at (1038, 635)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 15:47:05.368 +0530	typetext		[controlKey]a	3	on_textentry	CommonHandlers.script
+2025-02-24 15:47:06.453 +0530	typetext		Welcome@123	4	on_textentry	CommonHandlers.script
+2025-02-24 15:47:09.385 +0530	click	(TEXT:"LOG IN")	at (1256, 777)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 15:47:09.450 +0530	EndTestCase		(Duration:"32.717", Errors:"0", Exceptions:"0", StartTime:"2025-02-24 15:46:36 +0530", Successes:"1", TestCase:"LogintoNopcommerce.script", Warnings:"0")
+2025-02-24 15:47:09.506 +0530	SUCCESS		Execution Time 0:00:32 LogintoNopcommerce.script

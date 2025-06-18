@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="OpenGeeksforGeeks">
+ <run>
+  <RunDate>2025-02-24 16:08:16.274 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>31.844000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_160816.274/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:09:59.798 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>22.401000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_160959.798/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:11:24.977 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>48.132000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>3</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_161124.977/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Welcome&quot;)&quot; within 0.30 seconds. Text not found.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:17:18.467 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>14.496000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_161718.467/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: Courses</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:36:59.641 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>41.624000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_163659.641/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: Courses</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:38:09.464 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>39.031000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_163809.464/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: Courses</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:49:37.216 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>30.522000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>3</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_164937.216/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: Courses</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:50:46.304 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>7.336000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250224_165046.304/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 16:51:38.279 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>8.264000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250224_165138.279/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 17:44:51.495 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>6.318000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250224_174451.495/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 17:45:33.212 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>31.410000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_174533.212/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in attemptrecovery:
+Syntax Error at line 3 (line 15 of script): can&#x27;t understand &quot;-&quot; at character 168</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 17:46:29.386 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>63.785000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_174629.386/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
+</runHistory>

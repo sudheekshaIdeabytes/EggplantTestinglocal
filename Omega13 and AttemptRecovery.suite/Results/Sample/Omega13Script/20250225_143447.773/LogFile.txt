@@ -1,0 +1,7 @@
+﻿2025-02-25 14:34:47.820 +0530	START		Running Sample/Omega13Script.script
+2025-02-25 14:34:48.072 +0530	typetext		[windowsKey]r	8	on_omega13script	Sample/Omega13Script.script
+2025-02-25 14:34:51.298 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:34:52.524 +0530	typetext		Chrome https:\\geeksforgeeks.org[return]	10	on_omega13script	Sample/Omega13Script.script
+2025-02-25 14:35:27.288 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:35:27.416 +0530	EndTestCase		(Duration:"39.561", Errors:"1", Exceptions:"1", StartTime:"2025-02-25 14:34:47 +0530", Successes:"0", TestCase:"Sample/Omega13Script.script", Warnings:"0")
+2025-02-25 14:35:27.436 +0530	ABORTED		Execution Time 0:00:39 Sample/Omega13Script.script

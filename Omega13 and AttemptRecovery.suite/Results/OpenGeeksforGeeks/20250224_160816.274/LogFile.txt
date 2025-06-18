@@ -1,0 +1,8 @@
+﻿2025-02-24 16:08:16.281 +0530	START		Running OpenGeeksforGeeks.script
+2025-02-24 16:08:16.436 +0530	Connect		Mymachine:(null)	2	on_connectsut	CommonHandlers.script
+2025-02-24 16:08:26.506 +0530	typetext		[windowsKey]r	2	on_openapplication	CommonHandlers.script
+2025-02-24 16:08:32.153 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:08:33.607 +0530	typetext		Chromehttps://www.geeksforgeeks.org/ [return]	4	on_openapplication	CommonHandlers.script
+2025-02-24 16:08:48.042 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:08:48.119 +0530	EndTestCase		(Duration:"31.831", Errors:"1", Exceptions:"1", StartTime:"2025-02-24 16:08:16 +0530", Successes:"0", TestCase:"OpenGeeksforGeeks.script", Warnings:"0")
+2025-02-24 16:08:48.133 +0530	ABORTED		Execution Time 0:00:31 OpenGeeksforGeeks.script

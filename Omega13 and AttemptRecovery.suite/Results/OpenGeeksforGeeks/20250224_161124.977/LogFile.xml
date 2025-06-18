@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenGeeksforGeeks_script" package="Omega13 and AttemptRecovery.suite" timestamp="2025-02-24 16:11:24.977 +0530"
+ tests="1"  failures="1" errors="3" time="48.132000">
+  <properties>
+   <property name="RunDate" value="2025-02-24 16:11:24.977 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="OpenGeeksforGeeks.script" assertions="1" status="error"  time="48.114">
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Welcome&quot;)&quot; within 0.30 seconds. Text not found. -- Execution Time 0:00:48 OpenGeeksforGeeks.script" />
+    <error type="Throw" message="Image Not Found - waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Welcome&quot;)&quot; within 0.30 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenGeeksforGeeks_script" package="Omega13 and AttemptRecovery.suite" timestamp="2025-02-24 16:50:46.304 +0530"
+ tests="1"  failures="0" errors="0" time="7.336000">
+  <properties>
+   <property name="RunDate" value="2025-02-24 16:50:46.304 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="OpenGeeksforGeeks.script" assertions="1" status="success"  time="7.319">
+  </testcase>
+ </testsuite>
+</testsuites>

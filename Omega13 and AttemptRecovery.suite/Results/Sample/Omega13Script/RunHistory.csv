@@ -1,0 +1,5 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2025-02-25 14:27:19.232 +0530,"Failure",0:01:45,1,0,2,"20250225_142719.232/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Cources"")"". Text not found.",0
+2025-02-25 14:34:47.773 +0530,"Aborted",0:00:39,1,0,1,"20250225_143447.773/LogFile.txt","","",0
+2025-02-25 14:35:43.110 +0530,"Failure",0:02:31,1,0,2,"20250225_143543.110/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Cources"")"". Text not found.",0
+2025-02-25 14:39:01.343 +0530,"Failure",0:02:30,1,0,3,"20250225_143901.343/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Cources"")"". Text not found.",0

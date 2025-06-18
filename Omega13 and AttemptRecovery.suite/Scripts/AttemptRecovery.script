@@ -1,0 +1,12 @@
+﻿
+
+log "Entered the AttemptRecovery"
+
+
+If Imagefound(text:"Hello")
+then
+	click FoundImageLocation()
+	return yes
+else
+	return no
+End If

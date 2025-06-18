@@ -1,0 +1,16 @@
+﻿
+
+to handle Omega13Operation
+	
+	start using Omega13
+	
+	//CommonHandlers.ConnectSUT
+	typetext windowsKey , "r"
+	waitfor 20 , text:"Type the name"
+	typetext "Chrome" && "https:\\geeksforgeeks.org" , return
+	click text :"Cources"
+	
+	stop using Omega13 
+	
+end Omega13Operation
+

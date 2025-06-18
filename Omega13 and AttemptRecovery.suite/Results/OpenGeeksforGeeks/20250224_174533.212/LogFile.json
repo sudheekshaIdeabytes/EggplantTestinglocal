@@ -1,0 +1,55 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenGeeksforGeeks.script",
+				"identifier": "START",
+				"timestamp": "2025-02-24 17:45:33.226 +0530"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 17:45:33.360 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 17:45:38.252 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 17:45:39.411 +0530",
+				"message": "Chrome https:\\\\geeksforgeeks.org[return]",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 17:46:04.564 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found.",
+				"image": "(TEXT:\"Cources\")",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"31.392\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2025-02-24 17:45:33 +0530\", Successes:\"0\", TestCase:\"OpenGeeksforGeeks.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-24 17:46:04.623 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "SenseTalk Compiler Exception: in attemptrecovery:\\nSyntax Error at line 3 (line 15 of script): can't understand \"-\" at character 168 -- Execution Time 0:00:31 OpenGeeksforGeeks.script",
+				"identifier": "FAILURE",
+				"timestamp": "2025-02-24 17:46:05.120 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-24 17:45:33.230 +0530"
+}

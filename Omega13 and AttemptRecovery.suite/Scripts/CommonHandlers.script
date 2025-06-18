@@ -1,0 +1,30 @@
+﻿
+
+to ConnectSUT
+	connect Mymachine
+	wait 10
+end ConnectSUT
+
+
+to OpenApplication Browser , URL , assertion
+	typetext windowsKey , "r"
+	waitfor 20 , text:"Type the name"
+	typetext Browser && URL , return
+	waitfor 20 , assertion
+end OpenApplication
+
+
+to TextEntry Label , data
+	click text:Label
+	typetext controlKey , "a"
+	typetext data
+end TextEntry
+
+to Login
+	click text :"Log in"
+	TextEntry "Email" ," Eggplant@gmail.com"
+	TextEntry "Password" , "Welcome@123"
+	click text:"LOG IN" , caseSensitive:yes
+end Login
+
+

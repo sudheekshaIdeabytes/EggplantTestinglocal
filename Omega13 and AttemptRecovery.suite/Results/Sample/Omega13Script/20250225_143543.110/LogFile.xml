@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sample/Omega13Script_script" package="Omega13 and AttemptRecovery.suite" timestamp="2025-02-25 14:35:43.110 +0530"
+ tests="1"  failures="1" errors="2" time="151.057000">
+  <properties>
+   <property name="RunDate" value="2025-02-25 14:35:43.110 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Sample/Omega13Script.script" assertions="1" status="error"  time="151.005">
+    <failure type="FAILURE" message="Image Not Found: click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found. -- Execution Time 0:02:31 Sample/Omega13Script.script" />
+    <error type="Throw" message="Image Not Found - click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

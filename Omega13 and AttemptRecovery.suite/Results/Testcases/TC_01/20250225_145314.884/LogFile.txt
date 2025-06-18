@@ -1,0 +1,12 @@
+﻿2025-02-25 14:53:14.904 +0530	START		Running Testcases/TC_01.script
+2025-02-25 14:53:15.373 +0530	typetext		[windowsKey]r	6	on_omega13operation	Sample/Omega13Script.script
+2025-02-25 14:53:29.958 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:53:31.226 +0530	typetext		firefox https:\\geeksforgeeks.org[return]	8	on_omega13operation	Sample/Omega13Script.script
+2025-02-25 14:54:40.357 +0530	Exception	(TEXT:"Cources")	No Text Found On Screen: "(TEXT:"Cources")". Text not found.	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:54:40.416 +0530	Log		Entered the AttemptRecovery	3	function_attemptrecovery	AttemptRecovery.script
+2025-02-25 14:54:45.841 +0530	imagefound	(TEXT:"Hello")	found at (709, 344)	6	function_attemptrecovery	AttemptRecovery.script
+2025-02-25 14:54:45.966 +0530	click		at (709, 344)	8	function_attemptrecovery	AttemptRecovery.script
+2025-02-25 14:56:22.419 +0530	Exception	(TEXT:"Cources")	No Text Found On Screen: "(TEXT:"Cources")". Text not found.	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:56:22.453 +0530	Throw		Image Not Found - click Error - No Text Found On Screen: "(TEXT:"Cources")". Text not found.	15	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:56:22.796 +0530	EndTestCase		(Duration:"187.878", Errors:"1", Exceptions:"3", StartTime:"2025-02-25 14:53:14 +0530", Successes:"0", TestCase:"Testcases/TC_01.script", Warnings:"0")
+2025-02-25 14:56:23.407 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"Cources")". Text not found. -- Execution Time 0:03:07 Testcases/TC_01.script

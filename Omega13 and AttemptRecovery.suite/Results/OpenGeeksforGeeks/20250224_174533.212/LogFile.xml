@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenGeeksforGeeks_script" package="Omega13 and AttemptRecovery.suite" timestamp="2025-02-24 17:45:33.212 +0530"
+ tests="1"  failures="1" errors="1" time="31.410000">
+  <properties>
+   <property name="RunDate" value="2025-02-24 17:45:33.212 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="OpenGeeksforGeeks.script" assertions="1" status="error"  time="31.392">
+    <failure type="FAILURE" message="SenseTalk Compiler Exception: in attemptrecovery:\nSyntax Error at line 3 (line 15 of script): can&apos;t understand &quot;-&quot; at character 168 -- Execution Time 0:00:31 OpenGeeksforGeeks.script" />
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

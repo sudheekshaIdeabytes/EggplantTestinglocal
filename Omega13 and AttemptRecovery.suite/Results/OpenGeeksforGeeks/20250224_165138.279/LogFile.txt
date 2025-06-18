@@ -1,0 +1,6 @@
+﻿2025-02-24 16:51:38.298 +0530	START		Running OpenGeeksforGeeks.script
+2025-02-24 16:51:38.483 +0530	typetext		[windowsKey]r	6	on_opengeeksforgeeks	OpenGeeksforGeeks.script
+2025-02-24 16:51:45.352 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:51:46.517 +0530	typetext		Chrome https:\\geeksforgeeks.org[return]	8	on_opengeeksforgeeks	OpenGeeksforGeeks.script
+2025-02-24 16:51:46.545 +0530	EndTestCase		(Duration:"8.24", Errors:"0", Exceptions:"0", StartTime:"2025-02-24 16:51:38 +0530", Successes:"1", TestCase:"OpenGeeksforGeeks.script", Warnings:"0")
+2025-02-24 16:51:46.750 +0530	SUCCESS		Execution Time 0:00:08 OpenGeeksforGeeks.script

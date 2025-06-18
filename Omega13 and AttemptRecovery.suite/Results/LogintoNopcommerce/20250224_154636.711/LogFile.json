@@ -1,0 +1,138 @@
+{
+	"entries": [
+		{
+				"message": "Running LogintoNopcommerce.script",
+				"identifier": "START",
+				"timestamp": "2025-02-24 15:46:36.723 +0530"
+			},
+		{
+				"handlerName": "on_connectsut",
+				"timestamp": "2025-02-24 15:46:36.845 +0530",
+				"message": "Mymachine:(null)",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_opennopcommerce",
+				"timestamp": "2025-02-24 15:46:46.898 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 15:46:53.069 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_opennopcommerce",
+				"timestamp": "2025-02-24 15:46:54.333 +0530",
+				"message": "Chrome https:\\\\demo.nopcommerce.com[return]",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 15:46:56.070 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (871, 937)",
+				"image": "(TEXT:\"Welcome\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_opennopcommerce",
+				"timestamp": "2025-02-24 15:46:56.177 +0530",
+				"message": "Successfully opened the nopcommerce application",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 6,
+				"identifier": "LogSuccess"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 15:46:57.561 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "at (1278, 160)",
+				"image": "(TEXT:\"Log in\")",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 15:47:00.255 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "at (1051, 580)",
+				"image": "(TEXT:\"Email\")",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2025-02-24 15:47:01.003 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2025-02-24 15:47:02.332 +0530",
+				"message": " Eggplant@gmail.com",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 15:47:04.617 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "at (1038, 635)",
+				"image": "(TEXT:\"Password\")",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2025-02-24 15:47:05.368 +0530",
+				"message": "[controlKey]a",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 3,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_textentry",
+				"timestamp": "2025-02-24 15:47:06.453 +0530",
+				"message": "Welcome@123",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 15:47:09.385 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "at (1256, 777)",
+				"image": "(TEXT:\"LOG IN\")",
+				"handlerLine": 1,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"32.717\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2025-02-24 15:46:36 +0530\", Successes:\"1\", TestCase:\"LogintoNopcommerce.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-24 15:47:09.450 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:32 LogintoNopcommerce.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2025-02-24 15:47:09.506 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-24 15:46:36.730 +0530"
+}

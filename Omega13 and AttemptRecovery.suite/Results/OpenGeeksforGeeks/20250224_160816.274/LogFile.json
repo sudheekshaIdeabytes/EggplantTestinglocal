@@ -1,0 +1,61 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenGeeksforGeeks.script",
+				"identifier": "START",
+				"timestamp": "2025-02-24 16:08:16.281 +0530"
+			},
+		{
+				"handlerName": "on_connectsut",
+				"timestamp": "2025-02-24 16:08:16.436 +0530",
+				"message": "Mymachine:(null)",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"handlerName": "on_openapplication",
+				"timestamp": "2025-02-24 16:08:26.506 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 16:08:32.153 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_openapplication",
+				"timestamp": "2025-02-24 16:08:33.607 +0530",
+				"message": "Chromehttps://www.geeksforgeeks.org/ [return]",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 16:08:48.042 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"31.831\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2025-02-24 16:08:16 +0530\", Successes:\"0\", TestCase:\"OpenGeeksforGeeks.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-24 16:08:48.119 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:31 OpenGeeksforGeeks.script",
+				"identifier": "ABORTED",
+				"timestamp": "2025-02-24 16:08:48.133 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-24 16:08:16.286 +0530"
+}

@@ -1,0 +1,9 @@
+﻿2025-02-25 14:31:18.944 +0530	START		Running LogintoNopcommerce.script
+2025-02-25 14:31:19.594 +0530	typetext		[windowsKey]r	2	on_openapplication	CommonHandlers.script
+2025-02-25 14:31:29.355 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:31:30.726 +0530	typetext		Firefox https:\\demo.nopcommerce.com[return]	4	on_openapplication	CommonHandlers.script
+2025-02-25 14:31:30.854 +0530	Exception		Could Not Open Image: (empty)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:31:30.915 +0530	Log		No custom attemptRecovery() implementation was found	1	function_attemptrecovery	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/attemptRecovery.script
+2025-02-25 14:31:30.937 +0530	Throw		File Not Found - waitfor Error - Could Not Open Image: (empty)	20	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 14:31:31.044 +0530	EndTestCase		(Duration:"12.087", Errors:"1", Exceptions:"2", StartTime:"2025-02-25 14:31:18 +0530", Successes:"0", TestCase:"LogintoNopcommerce.script", Warnings:"0")
+2025-02-25 14:31:32.223 +0530	FAILURE	Screen_Error.png	File Not Found: waitfor Error - Could Not Open Image: (empty) -- Execution Time 0:00:12 LogintoNopcommerce.script

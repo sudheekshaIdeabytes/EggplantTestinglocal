@@ -1,0 +1,11 @@
+﻿2025-02-24 16:11:24.991 +0530	START		Running OpenGeeksforGeeks.script
+2025-02-24 16:11:25.139 +0530	typetext		[windowsKey]r	2	on_openapplication	CommonHandlers.script
+2025-02-24 16:11:30.609 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:11:31.898 +0530	typetext		Chrome https://www.geeksforgeeks.org/[return]	4	on_openapplication	CommonHandlers.script
+2025-02-24 16:12:01.004 +0530	Exception	(TEXT:"Welcome")	Unable To Find Any Image On Screen "(TEXT:"Welcome")" within 20.00 seconds. Text not found.	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:12:01.511 +0530	imagefound	(TEXT:"Continue as Sudheeksha")	found at (1684, 299)	5	function_attemptrecovery	AttemptRecovery.script
+2025-02-24 16:12:01.624 +0530	click		at (1684, 299)	7	function_attemptrecovery	AttemptRecovery.script
+2025-02-24 16:12:13.025 +0530	Exception	(TEXT:"Welcome")	Unable To Find Any Image On Screen "(TEXT:"Welcome")" within 0.30 seconds. Text not found.	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:12:13.037 +0530	Throw		Image Not Found - waitfor Error - Unable To Find Any Image On Screen "(TEXT:"Welcome")" within 0.30 seconds. Text not found.	15	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:12:13.110 +0530	EndTestCase		(Duration:"48.114", Errors:"1", Exceptions:"3", StartTime:"2025-02-24 16:11:24 +0530", Successes:"0", TestCase:"OpenGeeksforGeeks.script", Warnings:"0")
+2025-02-24 16:12:13.363 +0530	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "(TEXT:"Welcome")" within 0.30 seconds. Text not found. -- Execution Time 0:00:48 OpenGeeksforGeeks.script

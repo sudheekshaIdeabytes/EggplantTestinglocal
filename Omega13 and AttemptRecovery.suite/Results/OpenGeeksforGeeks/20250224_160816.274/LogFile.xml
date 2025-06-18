@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="OpenGeeksforGeeks_script" package="Omega13 and AttemptRecovery.suite" timestamp="2025-02-24 16:08:16.274 +0530"
+ tests="1"  failures="0" errors="0" time="31.844000">
+  <properties>
+   <property name="RunDate" value="2025-02-24 16:08:16.274 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="OpenGeeksforGeeks.script" assertions="1" status="error"  time="31.831">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

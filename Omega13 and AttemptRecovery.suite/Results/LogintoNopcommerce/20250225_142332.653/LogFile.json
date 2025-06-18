@@ -1,0 +1,71 @@
+{
+	"entries": [
+		{
+				"message": "Running LogintoNopcommerce.script",
+				"identifier": "START",
+				"timestamp": "2025-02-25 14:23:32.670 +0530"
+			},
+		{
+				"handlerName": "on_openapplication",
+				"timestamp": "2025-02-25 14:23:32.941 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 2,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-25 14:23:52.070 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_openapplication",
+				"timestamp": "2025-02-25 14:23:53.459 +0530",
+				"message": "Chrome https:\\\\demo.nopcommerce.com[return]",
+				"scriptName": "CommonHandlers.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-25 14:23:53.527 +0530",
+				"message": "Could Not Open Image: (empty)",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-25 14:24:44.698 +0530",
+				"scriptName": "AttemptRecovery.script",
+				"message": "Unable to Find Image (TEXT:\"Continue as Sudheeksha\"). Text not found.",
+				"image": "(TEXT:\"Continue as Sudheeksha\")",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-25 14:24:44.869 +0530",
+				"message": "File Not Found - waitfor Error - Could Not Open Image: (empty)",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"handlerLine": 20,
+				"identifier": "Throw"
+			},
+		{
+				"message": "(Duration:\"72.473\", Errors:\"1\", Exceptions:\"2\", StartTime:\"2025-02-25 14:23:32 +0530\", Successes:\"0\", TestCase:\"LogintoNopcommerce.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-25 14:24:45.156 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "File Not Found: waitfor Error - Could Not Open Image: (empty) -- Execution Time 0:01:12 LogintoNopcommerce.script",
+				"identifier": "FAILURE",
+				"timestamp": "2025-02-25 14:24:46.226 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-25 14:23:32.679 +0530"
+}

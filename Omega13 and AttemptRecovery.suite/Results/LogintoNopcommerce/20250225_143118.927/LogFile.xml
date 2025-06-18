@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="LogintoNopcommerce_script" package="Omega13 and AttemptRecovery.suite" timestamp="2025-02-25 14:31:18.927 +0530"
+ tests="1"  failures="1" errors="2" time="12.115000">
+  <properties>
+   <property name="RunDate" value="2025-02-25 14:31:18.927 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="LogintoNopcommerce.script" assertions="1" status="error"  time="12.087">
+    <failure type="FAILURE" message="File Not Found: waitfor Error - Could Not Open Image: (empty) -- Execution Time 0:00:12 LogintoNopcommerce.script" />
+    <error type="Throw" message="File Not Found - waitfor Error - Could Not Open Image: (empty)" />
+  </testcase>
+ </testsuite>
+</testsuites>

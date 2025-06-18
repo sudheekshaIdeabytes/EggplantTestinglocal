@@ -1,0 +1,97 @@
+{
+	"entries": [
+		{
+				"message": "Running Testcases/TC_01.script",
+				"identifier": "START",
+				"timestamp": "2025-02-25 14:53:14.904 +0530"
+			},
+		{
+				"handlerName": "on_omega13operation",
+				"timestamp": "2025-02-25 14:53:15.373 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "Sample/Omega13Script.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-25 14:53:29.958 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_omega13operation",
+				"timestamp": "2025-02-25 14:53:31.226 +0530",
+				"message": "firefox https:\\\\geeksforgeeks.org[return]",
+				"scriptName": "Sample/Omega13Script.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-25 14:54:40.357 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found.",
+				"image": "(TEXT:\"Cources\")",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-25 14:54:40.416 +0530",
+				"message": "Entered the AttemptRecovery",
+				"scriptName": "AttemptRecovery.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-25 14:54:45.841 +0530",
+				"scriptName": "AttemptRecovery.script",
+				"message": "found at (709, 344)",
+				"image": "(TEXT:\"Hello\")",
+				"handlerLine": 6,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-25 14:54:45.966 +0530",
+				"message": "at (709, 344)",
+				"scriptName": "AttemptRecovery.script",
+				"handlerLine": 8,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-25 14:56:22.419 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found.",
+				"image": "(TEXT:\"Cources\")",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-25 14:56:22.453 +0530",
+				"message": "Image Not Found - click Error - No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found.",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"handlerLine": 15,
+				"identifier": "Throw"
+			},
+		{
+				"message": "(Duration:\"187.878\", Errors:\"1\", Exceptions:\"3\", StartTime:\"2025-02-25 14:53:14 +0530\", Successes:\"0\", TestCase:\"Testcases/TC_01.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-25 14:56:22.796 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found. -- Execution Time 0:03:07 Testcases/TC_01.script",
+				"identifier": "FAILURE",
+				"timestamp": "2025-02-25 14:56:23.407 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-25 14:53:14.912 +0530"
+}

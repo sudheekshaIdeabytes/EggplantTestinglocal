@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Testcases/TC_01">
+ <run>
+  <RunDate>2025-02-25 14:53:14.884 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>187.907000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>3</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_145314.884/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-25 15:34:01.592 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>19.374000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_153401.592/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
+</runHistory>

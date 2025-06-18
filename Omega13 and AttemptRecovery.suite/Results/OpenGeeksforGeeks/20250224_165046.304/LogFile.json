@@ -1,0 +1,45 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenGeeksforGeeks.script",
+				"identifier": "START",
+				"timestamp": "2025-02-24 16:50:46.317 +0530"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 16:50:46.463 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 16:50:51.826 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 16:50:53.611 +0530",
+				"message": "Chrome https:\\\\geeksforgeeks.org[return]",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"7.319\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2025-02-24 16:50:46 +0530\", Successes:\"1\", TestCase:\"OpenGeeksforGeeks.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-24 16:50:53.642 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:07 OpenGeeksforGeeks.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2025-02-24 16:50:53.735 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-24 16:50:46.321 +0530"
+}

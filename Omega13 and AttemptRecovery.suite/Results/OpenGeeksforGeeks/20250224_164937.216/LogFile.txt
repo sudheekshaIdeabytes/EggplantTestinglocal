@@ -1,0 +1,13 @@
+﻿2025-02-24 16:49:37.232 +0530	START		Running OpenGeeksforGeeks.script
+2025-02-24 16:49:37.398 +0530	typetext		[windowsKey]r	6	on_opengeeksforgeeks	OpenGeeksforGeeks.script
+2025-02-24 16:49:42.668 +0530	waitfor	(TEXT:"Type the name")	found at (117, 875)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:49:43.856 +0530	typetext		Chrome https:\\geeksforgeeks.org[return]	8	on_opengeeksforgeeks	OpenGeeksforGeeks.script
+2025-02-24 16:49:44.077 +0530	Exception	Courses	Could Not Open Image: Courses	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:49:44.091 +0530	Log		Runtime Error at line 1: File Not Found - waitfor Error - Could Not Open Image: Courses	3	function_attemptrecovery	OpenGeeksforGeeks.script
+2025-02-24 16:49:44.103 +0530	Log		waitfor	4	function_attemptrecovery	OpenGeeksforGeeks.script
+2025-02-24 16:49:44.111 +0530	Log		[20,"Courses"]	5	function_attemptrecovery	OpenGeeksforGeeks.script
+2025-02-24 16:50:07.642 +0530	imagefound	(TEXT:"Continue as Sudheeksha")	Unable to Find Image (TEXT:"Continue as Sudheeksha"). Text not found.	7	function_attemptrecovery	OpenGeeksforGeeks.script
+2025-02-24 16:50:07.682 +0530	Exception	Courses	Could Not Open Image: Courses	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:50:07.693 +0530	Throw		File Not Found - waitfor Error - Could Not Open Image: Courses	15	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-24 16:50:07.739 +0530	EndTestCase		(Duration:"30.5", Errors:"1", Exceptions:"3", StartTime:"2025-02-24 16:49:37 +0530", Successes:"0", TestCase:"OpenGeeksforGeeks.script", Warnings:"0")
+2025-02-24 16:50:08.040 +0530	FAILURE	Screen_Error.png	File Not Found: waitfor Error - Could Not Open Image: Courses -- Execution Time 0:00:30 OpenGeeksforGeeks.script

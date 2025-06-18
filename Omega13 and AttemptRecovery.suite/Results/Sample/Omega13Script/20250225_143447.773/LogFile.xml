@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Sample/Omega13Script_script" package="Omega13 and AttemptRecovery.suite" timestamp="2025-02-25 14:34:47.773 +0530"
+ tests="1"  failures="0" errors="0" time="39.641000">
+  <properties>
+   <property name="RunDate" value="2025-02-25 14:34:47.773 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Sample/Omega13Script.script" assertions="1" status="error"  time="39.561">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,34 @@
+﻿
+
+start using Omega13
+
+//CommonHandlers.ConnectSUT
+typetext windowsKey , "r"
+waitfor 20 , text:"Type the name"
+typetext "Chrome" && "https:\\geeksforgeeks.org" , return
+click text :"Cources"
+
+stop using Omega13 
+
+to attemptRecovery given (*theException, theCommand, theParams*)
+
+	(*log theException -- logs the original exception encountered in the calling script
+	log theCommand -- logs the command on which the error occurred
+	log theParams -*)-- logs the parameters passed to the command that failed
+	
+	If Imagefound(text:"Continue as Sudheeksha")	then
+		click FoundImageLocation()
+		return yes
+	else
+		CaptureScreen 
+		return no
+	End If
+	
+end attemptRecovery
+
+
+(*
+
+set defaultImageUpdate to the ImageUpdate // get the current setting
+set the ImageUpdate to Off // this will throw an error when an image is NOT found
+*)

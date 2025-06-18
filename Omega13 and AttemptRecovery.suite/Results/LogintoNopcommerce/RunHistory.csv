@@ -1,0 +1,6 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2025-02-24 15:36:21.364 +0530,"Aborted",0:00:40,1,0,1,"20250224_153621.364/LogFile.txt","","",0
+2025-02-24 15:46:28.690 +0530,"Aborted",0:00:04,1,0,0,"20250224_154628.690/LogFile.txt","","",0
+2025-02-24 15:46:36.711 +0530,"Success",0:00:32,0,0,0,"20250224_154636.711/LogFile.txt","","",1
+2025-02-25 14:23:32.653 +0530,"Failure",0:01:12,1,0,2,"20250225_142332.653/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: (empty)",0
+2025-02-25 14:31:18.927 +0530,"Failure",0:00:12,1,0,2,"20250225_143118.927/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: (empty)",0

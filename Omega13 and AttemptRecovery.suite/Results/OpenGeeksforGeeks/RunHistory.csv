@@ -1,0 +1,13 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2025-02-24 16:08:16.274 +0530,"Aborted",0:00:31,1,0,1,"20250224_160816.274/LogFile.txt","","",0
+2025-02-24 16:09:59.798 +0530,"Aborted",0:00:22,1,0,1,"20250224_160959.798/LogFile.txt","","",0
+2025-02-24 16:11:24.977 +0530,"Failure",0:00:48,1,0,3,"20250224_161124.977/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""(TEXT:""Welcome"")"" within 0.30 seconds. Text not found.",0
+2025-02-24 16:17:18.467 +0530,"Failure",0:00:14,1,0,2,"20250224_161718.467/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: Courses",0
+2025-02-24 16:36:59.641 +0530,"Failure",0:00:41,1,0,2,"20250224_163659.641/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: Courses",0
+2025-02-24 16:38:09.464 +0530,"Failure",0:00:39,1,0,2,"20250224_163809.464/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: Courses",0
+2025-02-24 16:49:37.216 +0530,"Failure",0:00:30,1,0,3,"20250224_164937.216/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: Courses",0
+2025-02-24 16:50:46.304 +0530,"Success",0:00:07,0,0,0,"20250224_165046.304/LogFile.txt","","",1
+2025-02-24 16:51:38.279 +0530,"Success",0:00:08,0,0,0,"20250224_165138.279/LogFile.txt","","",1
+2025-02-24 17:44:51.495 +0530,"Success",0:00:06,0,0,0,"20250224_174451.495/LogFile.txt","","",1
+2025-02-24 17:45:33.212 +0530,"Failure",0:00:31,1,0,1,"20250224_174533.212/LogFile.txt","","SenseTalk Compiler Exception -- in attemptrecovery:\nSyntax Error at line 3 (line 15 of script): can't understand ""-"" at character 168",0
+2025-02-24 17:46:29.386 +0530,"Failure",0:01:03,1,0,2,"20250224_174629.386/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""Cources"")"". Text not found.",0

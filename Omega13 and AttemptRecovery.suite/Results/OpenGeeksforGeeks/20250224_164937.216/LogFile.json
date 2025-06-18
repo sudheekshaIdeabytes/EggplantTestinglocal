@@ -1,0 +1,105 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenGeeksforGeeks.script",
+				"identifier": "START",
+				"timestamp": "2025-02-24 16:49:37.232 +0530"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 16:49:37.398 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 16:49:42.668 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 16:49:43.856 +0530",
+				"message": "Chrome https:\\\\geeksforgeeks.org[return]",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 16:49:44.077 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "Could Not Open Image: Courses",
+				"image": "Courses",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-24 16:49:44.091 +0530",
+				"message": "Runtime Error at line 1: File Not Found - waitfor Error - Could Not Open Image: Courses",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 3,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-24 16:49:44.103 +0530",
+				"message": "waitfor",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 4,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-24 16:49:44.111 +0530",
+				"message": "[20,\"Courses\"]",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 5,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-24 16:50:07.642 +0530",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"message": "Unable to Find Image (TEXT:\"Continue as Sudheeksha\"). Text not found.",
+				"image": "(TEXT:\"Continue as Sudheeksha\")",
+				"handlerLine": 7,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 16:50:07.682 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "Could Not Open Image: Courses",
+				"image": "Courses",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 16:50:07.693 +0530",
+				"message": "File Not Found - waitfor Error - Could Not Open Image: Courses",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"handlerLine": 15,
+				"identifier": "Throw"
+			},
+		{
+				"message": "(Duration:\"30.5\", Errors:\"1\", Exceptions:\"3\", StartTime:\"2025-02-24 16:49:37 +0530\", Successes:\"0\", TestCase:\"OpenGeeksforGeeks.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-24 16:50:07.739 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "File Not Found: waitfor Error - Could Not Open Image: Courses -- Execution Time 0:00:30 OpenGeeksforGeeks.script",
+				"identifier": "FAILURE",
+				"timestamp": "2025-02-24 16:50:08.040 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-24 16:49:37.237 +0530"
+}

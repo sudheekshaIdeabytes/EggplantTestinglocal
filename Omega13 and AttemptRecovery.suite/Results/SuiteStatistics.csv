@@ -1,0 +1,5 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+LogintoNopcommerce,Failure,3,2,2025-02-24 15:46:36 +0530,2025-02-25 14:31:18 +0530,0:00:32
+Sample/Omega13Script,Failure,3,3,2025-02-25 14:27:19 +0530,2025-02-25 14:39:01 +0530,0:00:00
+Testcases/TC_01,Failure,2,2,2025-02-25 14:53:14 +0530,2025-02-25 15:34:01 +0530,0:00:00
+OpenGeeksforGeeks,Failure,10,7,2025-02-24 16:11:24 +0530,2025-02-24 17:46:29 +0530,0:00:07

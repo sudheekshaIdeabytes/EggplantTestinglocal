@@ -1,0 +1,80 @@
+{
+	"entries": [
+		{
+				"message": "Running OpenGeeksforGeeks.script",
+				"identifier": "START",
+				"timestamp": "2025-02-24 17:46:29.400 +0530"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 17:46:29.544 +0530",
+				"message": "[windowsKey]r",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 6,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 17:46:34.398 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "found at (117, 875)",
+				"image": "(TEXT:\"Type the name\")",
+				"handlerLine": 1,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_opengeeksforgeeks",
+				"timestamp": "2025-02-24 17:46:35.548 +0530",
+				"message": "Chrome https:\\\\geeksforgeeks.org[return]",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"handlerLine": 8,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 17:47:04.902 +0530",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"message": "No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found.",
+				"image": "(TEXT:\"Cources\")",
+				"handlerLine": 1,
+				"identifier": "Exception"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-24 17:47:32.546 +0530",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"message": "Unable to Find Image (TEXT:\"Continue as Sudheeksha\"). Text not found.",
+				"image": "(TEXT:\"Continue as Sudheeksha\")",
+				"handlerLine": 7,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "function_attemptrecovery",
+				"timestamp": "2025-02-24 17:47:33.094 +0530",
+				"scriptName": "OpenGeeksforGeeks.script",
+				"image": "Screen_Capture.png",
+				"handlerLine": 11,
+				"identifier": "capturescreen"
+			},
+		{
+				"handlerName": "on_overridecommand",
+				"timestamp": "2025-02-24 17:47:33.105 +0530",
+				"message": "Image Not Found - click Error - No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found.",
+				"scriptName": "C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script",
+				"handlerLine": 20,
+				"identifier": "Throw"
+			},
+		{
+				"message": "(Duration:\"63.765\", Errors:\"1\", Exceptions:\"2\", StartTime:\"2025-02-24 17:46:29 +0530\", Successes:\"0\", TestCase:\"OpenGeeksforGeeks.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-02-24 17:47:33.172 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: click Error - No Text Found On Screen: \"(TEXT:\"Cources\")\". Text not found. -- Execution Time 0:01:03 OpenGeeksforGeeks.script",
+				"identifier": "FAILURE",
+				"timestamp": "2025-02-24 17:47:33.698 +0530"
+			}
+	],
+	"createdTimestamp": "2025-02-24 17:46:29.405 +0530"
+}

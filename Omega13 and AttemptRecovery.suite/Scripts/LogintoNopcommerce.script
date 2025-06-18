@@ -1,0 +1,9 @@
+﻿
+
+start using Omega13
+
+--CommonHandlers.ConnectSUT
+CommonHandlers.OpenApplication "Firefox" , "https:\\demo.nopcommerce.com"
+CommonHandlers.Login
+
+stop using Omega13

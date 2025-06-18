@@ -1,0 +1,4 @@
+﻿2025-02-24 15:46:28.698 +0530	START		Running LogintoNopcommerce.script
+2025-02-24 15:46:28.811 +0530	Connect		Mymachine:(null)	2	on_connectsut	CommonHandlers.script
+2025-02-24 15:46:32.871 +0530	EndTestCase		(Duration:"4.168", Errors:"1", Exceptions:"0", StartTime:"2025-02-24 15:46:28 +0530", Successes:"0", TestCase:"LogintoNopcommerce.script", Warnings:"0")
+2025-02-24 15:46:32.883 +0530	ABORTED		Execution Time 0:00:04 LogintoNopcommerce.script

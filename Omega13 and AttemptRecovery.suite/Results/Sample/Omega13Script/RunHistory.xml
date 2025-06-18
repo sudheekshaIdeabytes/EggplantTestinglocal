@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Sample/Omega13Script">
+ <run>
+  <RunDate>2025-02-25 14:27:19.232 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>105.980000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_142719.232/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-25 14:34:47.773 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>39.641000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_143447.773/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-25 14:35:43.110 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>151.057000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_143543.110/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-25 14:39:01.343 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>150.723000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>3</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_143901.343/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;Cources&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,10 @@
+﻿2025-02-25 15:34:01.600 +0530	START		Running Testcases/TC_01.script
+2025-02-25 15:34:01.862 +0530	typetext		[windowsKey]r	6	on_omega13operation	Sample/Omega13Script.script
+2025-02-25 15:34:04.074 +0530	waitfor	(TEXT:"Type the name")	found at (117, 883)	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 15:34:05.269 +0530	typetext		Chrome https:\\geeksforgeeks.org[return]	8	on_omega13operation	Sample/Omega13Script.script
+2025-02-25 15:34:15.193 +0530	Exception	(TEXT:"Cources")	No Text Found On Screen: "(TEXT:"Cources")". Text not found.	1	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 15:34:15.211 +0530	Log		Entered the AttemptRecovery	3	function_attemptrecovery	AttemptRecovery.script
+2025-02-25 15:34:20.893 +0530	imagefound	(TEXT:"Hello")	Unable to Find Image (TEXT:"Hello"). Text not found.	6	function_attemptrecovery	AttemptRecovery.script
+2025-02-25 15:34:20.903 +0530	Throw		Image Not Found - click Error - No Text Found On Screen: "(TEXT:"Cources")". Text not found.	20	on_overridecommand	C:/Program Files/Eggplant/Eggplant.app/Resources/EggplantCommon.suite/Scripts/Omega13.script
+2025-02-25 15:34:20.967 +0530	EndTestCase		(Duration:"19.363", Errors:"1", Exceptions:"2", StartTime:"2025-02-25 15:34:01 +0530", Successes:"0", TestCase:"Testcases/TC_01.script", Warnings:"0")
+2025-02-25 15:34:21.123 +0530	FAILURE	Screen_Error.png	Image Not Found: click Error - No Text Found On Screen: "(TEXT:"Cources")". Text not found. -- Execution Time 0:00:19 Testcases/TC_01.script

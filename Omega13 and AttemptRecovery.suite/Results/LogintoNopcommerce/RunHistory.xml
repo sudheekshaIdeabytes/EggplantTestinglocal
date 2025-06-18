@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="LogintoNopcommerce">
+ <run>
+  <RunDate>2025-02-24 15:36:21.364 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>40.415000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_153621.364/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 15:46:28.690 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>4.180000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250224_154628.690/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-24 15:46:36.711 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>32.737000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250224_154636.711/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-25 14:23:32.653 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>72.500000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_142332.653/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: (empty)</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-02-25 14:31:18.927 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.115000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>2</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250225_143118.927/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: (empty)</ErrorMessage>
+ </run>
+</runHistory>
