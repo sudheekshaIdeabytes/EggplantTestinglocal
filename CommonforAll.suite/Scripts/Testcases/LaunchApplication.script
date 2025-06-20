@@ -3,7 +3,7 @@
 
 
 "ApplicationUtilities/Nopcommerce".openSUT "Mymachine"
-"ApplicationUtilities/Nopcommerce".openApplication "Chrome" , "https://demo.nopcommerce.com/"
+"ApplicationUtilities/Nopcommerce".openApplication "firefox" , "https://demo.nopcommerce.com/"
 "ApplicationUtilities/Nopcommerce".regsiter "Female" , "sudhee" , "gunu", "abc123@gmail.com" , "Ideabytes" , "123456" , "123456"
 "ApplicationUtilities/Nopcommerce".login "abc@gmail.com" , "123456"
 "ApplicationUtilities/Nopcommerce".addToCart
