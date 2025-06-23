@@ -4,22 +4,21 @@
 
 "ApplicationUtilities/Nopcommerce".openSUT "Mymachine"
 
-StartMovie "C:\Users\sudheeksha.gunuputi\OneDrive - Ideabytes\Documents\Documents\TC1"
-
 "ApplicationUtilities/Nopcommerce".openApplication "Chrome" , "https://demo.nopcommerce.com/"
-StopMovie
+
 "ApplicationUtilities/Nopcommerce".regsiter "Female" , "sudhee" , "gunu", "abc@gmail.com" , "Ideabytes" , "123456" , "123456"
 
 "ApplicationUtilities/Nopcommerce".login "abc@gmail.com" , "123456"
 "ApplicationUtilities/Nopcommerce".addToCart
-"ApplicationUtilities/Nopcommerce".orderProduct "sudhee" ,"gunu" ,"abc@gmail.com" ,"Ideabytes"
+(*"ApplicationUtilities/Nopcommerce".orderProduct "sudhee" ,"gunu" ,"abc@gmail.com" ,"Ideabytes"*)
 "ApplicationUtilities/Nopcommerce".logout
 "ApplicationUtilities/Nopcommerce".closeNopcommercetab
 "ApplicationUtilities/Nopcommerce".closebrowserwindow
 
-StopMovie
 
 
+
+(*
 "ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"
 
 Connect serverID:"192.168.1.171", portNum:3389, password:"Ideabytes", type:"rdp"
@@ -27,6 +26,7 @@ Connect serverID:"192.168.1.171", portNum:3389, password:"Ideabytes", type:"rdp"
 connect "81_Machine"
 
 Connect serverID:"192.168.1.171", portNum:3389, password:"Ideabytes", type:"rdp"
+*)
 
 
 
