@@ -21,3 +21,6 @@
 2025-06-23 17:06:16.504 +0530,"Failure",0:00:02,1,0,0,"20250623_170616.504/LogFile.txt","","Connection Failed -- Unable to connect to Server:71_Machine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
 2025-06-23 17:16:44.430 +0530,"Failure",0:00:07,1,1,1,"20250623_171644.430/LogFile.txt","","Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen ""(TEXT:""Type the name"")"" within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,1029))\n",0
 2025-06-23 17:19:00.615 +0530,"Failure",0:00:03,1,0,1,"20250623_171900.615/LogFile.txt","","Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen ""(TEXT:""Type the name"")"" within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,1024))\n",0
+2025-06-23 17:24:21.647 +0530,"Failure",0:00:30,1,0,0,"20250623_172421.647/LogFile.txt","","AssertionFailed -- (false: ImageFound(text:""Welcome to our store""))",0
+2025-06-23 17:27:47.864 +0530,"Failure",0:01:58,1,1,1,"20250623_172747.864/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""product""",2
+2025-06-23 17:33:33.929 +0530,"Failure",0:00:51,1,0,1,"20250623_173333.929/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""register"")"". Text not found.",1

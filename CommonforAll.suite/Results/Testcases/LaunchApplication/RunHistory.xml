@@ -288,4 +288,40 @@ Invalid hostname or IP address: No such host is known.
   <ErrorMessage>Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Type the name&quot;)&quot; within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,1024))
 </ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 17:24:21.647 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>30.712000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_172421.647/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: ImageFound(text:&quot;Welcome to our store&quot;))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 17:27:47.864 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>118.205000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20250623_172747.864/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;product&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 17:33:33.929 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>51.354000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250623_173333.929/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;register&quot;)&quot;. Text not found.</ErrorMessage>
+ </run>
 </runHistory>
