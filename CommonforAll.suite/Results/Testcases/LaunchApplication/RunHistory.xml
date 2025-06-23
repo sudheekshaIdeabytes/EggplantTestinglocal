@@ -62,4 +62,46 @@
 Invalid hostname or IP address: No such host is known. 
 </ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 13:04:03.840 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.800000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_130403.840/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:Mymachine on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 13:04:48.166 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.793000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_130448.166/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:Mymachine on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 13:56:25.276 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.883000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_135625.276/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:Mymachine on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
 </runHistory>
