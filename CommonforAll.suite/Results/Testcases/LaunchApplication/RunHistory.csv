@@ -8,3 +8,7 @@
 2025-06-23 13:04:48.166 +0530,"Failure",0:00:02,1,0,0,"20250623_130448.166/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
 2025-06-23 13:56:25.276 +0530,"Failure",0:00:02,1,0,0,"20250623_135625.276/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
 2025-06-23 14:51:44.802 +0530,"Failure",0:00:03,1,0,0,"20250623_145144.802/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
+2025-06-23 15:02:01.493 +0530,"Failure",0:00:03,1,0,0,"20250623_150201.493/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
+2025-06-23 15:06:28.654 +0530,"Failure",0:03:49,1,0,0,"20250623_150628.654/LogFile.txt","","AssertionFailed -- (false: imagefound(text:""Your registration completed""))",2
+2025-06-23 15:19:38.794 +0530,"Success",0:04:22,0,0,0,"20250623_151938.794/LogFile.txt","","",2
+2025-06-23 15:24:12.133 +0530,"Success",0:03:22,0,0,0,"20250623_152412.133/LogFile.txt","","",2

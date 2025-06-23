@@ -44,7 +44,9 @@ to regsiter gender , Firstname , Lastname , email , company , password , confirm
 	if imagefound(text:"The specified email already exists") 
 	then 
 		login
-	else
+	else if imagefound(0,text:"saved password")
+		click text:"Close"
+		waitfor 10 , text :"Your registration completed"
 		assert that imagefound(text:"Your registration completed")
 		click text:"CONTINUE"
 	end if

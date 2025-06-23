@@ -118,4 +118,54 @@ Invalid hostname or IP address: No such host is known.
 Invalid hostname or IP address: No such host is known. 
 </ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 15:02:01.493 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>3.095000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_150201.493/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:Mymachine on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 15:06:28.654 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>229.160000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20250623_150628.654/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(text:&quot;Your registration completed&quot;))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 15:19:38.794 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>262.046000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20250623_151938.794/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 15:24:12.133 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>202.998000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20250623_152412.133/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
 </runHistory>
