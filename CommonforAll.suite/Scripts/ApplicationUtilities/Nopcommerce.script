@@ -6,7 +6,7 @@ end openSUT
 
 
 to OpenSUTDAI IPaddress , portnumber , type
-	Connect serverID:IPaddress, portNum:portnumber, type : type ,   password:"Nanna@12345678" , username: "IDEABYTES\sudheeksha.gunuputi"
+	Connect serverID:IPaddress, portNum:portnumber, type : type ,   password:"TestingIB@123" , username: "Testing-SRV"
 end OpenSUTDAI
 
 
