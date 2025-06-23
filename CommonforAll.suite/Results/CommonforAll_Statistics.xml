@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <statistics>
  <script name="Testcases/LaunchApplication">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>11</NumberOfRuns>
-  <NumberOfFails>7</NumberOfFails>
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>13</NumberOfRuns>
+  <NumberOfFails>9</NumberOfFails>
   <FirstRun>2025-03-26 16:30:49 +0530</FirstRun>
-  <LastRun>2025-06-23 15:24:12 +0530</LastRun>
+  <LastRun>2025-06-23 15:45:01 +0530</LastRun>
   <TotalTimeOnSuccess>746.617000</TotalTimeOnSuccess>
  </script>
  <script name="Testcases/Justalogstatement">

@@ -2,7 +2,8 @@
 
 
 
-"ApplicationUtilities/Nopcommerce".openSUT "Mymachine"
+"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"
+
 
 "ApplicationUtilities/Nopcommerce".openApplication "Chrome" , "https://demo.nopcommerce.com/"
 
@@ -19,7 +20,6 @@
 
 
 (*
-"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"
 
 Connect serverID:"192.168.1.171", portNum:3389, password:"Ideabytes", type:"rdp"
 
