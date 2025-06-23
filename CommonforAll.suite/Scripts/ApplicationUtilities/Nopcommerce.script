@@ -1,0 +1,176 @@
+﻿
+to openSUT SUTname
+	"CommonUtilities/Core".ConnectSUT SUTname
+	wait 10
+end openSUT
+
+
+to OpenSUTDAI IPaddress , portnumber , type
+	Connect serverID:IPaddress, portNum:portnumber, type : type
+end OpenSUTDAI
+
+
+to openApplication browser , URL
+	"CommonUtilities/Core".launchURL browser , URL
+	wait 2
+	assert that ImageFound(text:"Welcome to our store")
+end openApplication
+
+
+to regsiter gender , Firstname , Lastname , email , company , password , confirmpassword 
+	click text:"register"
+	assert that imagefound(text:"Your Personal Details")
+	click text:gender
+	click imagelocation(text:"First name")+[70,0]
+	typetext Firstname
+	click Imagelocation(text:"Last name")+[70,0]
+	typetext Lastname
+	click imagelocation(text:"Email")+[50,0]
+	typetext email
+	click imagelocation(text:"Company name")+[50,0]
+	typetext company
+	wait 0.5
+	ScrollWheelDown 7
+	click {text:"Your Password",hotspot:[0,70]}
+	typetext controlKey,"a"
+	typetext password
+	click imagelocation(text:"Confirm")
+	typetext controlKey,"a"
+	typetext confirmpassword
+	repeat until ImageFound("REGISTER")
+		ScrollWheelDown  4
+	end repeat
+	click imagelocation(imageName:"REGISTER")
+	if imagefound(text:"The specified email already exists") 
+	then 
+		login
+	else
+		assert that imagefound(text:"Your registration completed")
+		click text:"CONTINUE"
+	end if
+	if imagefound(text:"Check your saved passwords") then click text:"close"
+end regsiter
+
+
+to login Email, Password
+	if imagefound(text:"Log out") then
+		exit login
+	else
+		click text:"Log in"
+		waitfor 5 , text:"Welcome, Please Sign In!"
+		typetext controlKey,"a"
+		click imagelocation(text:"Email")
+		typetext Email
+		click imagelocation(text:"Password")
+		typetext controlKey,"a"
+		typetext Password
+		click imageName:"LOGIN"
+	end if
+	if ImageFound(0,text:"Login was unsuccessful")
+		regsiter
+	else
+		if imagefound(0,text:"saved password")
+			click text:"Close"
+			if imagefound(text:"save")
+				click FoundImageLocation()
+			end if
+		end if
+	end if
+end login
+
+
+to addToCart
+	click text:"Books"
+	click imagename:"product"
+	wait 3
+	click text:"ADD TO CART"
+	if imagefound(text:"The product has been added to the shopping cart") then
+		assert that imagefound(text:"The product has been added to the shopping cart")
+		click imageName:"close_popup"
+	else
+		click imageName:"shoppingcart"
+	end if
+end addToCart
+
+
+to orderProduct Firstname , Lastname , Email , Company 
+	if ImageFound("Shoppingcart_text")
+		LogSuccess "You are in the shopping cart page"
+		repeat until ImageFound("termsAndConditions_checkBox.png")
+			typetext downArrow
+		end repeat
+		click FoundImageLocation()
+		ScrollWheelDown 2
+		click text:"CHECKOUT"
+		waitfor 10, text:" ship to the same address"
+		if imagefound (text:"Ship to the same address") 
+		then 
+			"CommonUtilities/Core".navigate "CONTINUE"
+		else if imagefound(text:"First name") then
+			click imagelocation(text:"First name")+[70,0]
+			typetext controlKey,"a"
+			typetext Firstname
+			click Imagelocation(text:"Last name")+[70,0]
+			typetext controlKey,"a"
+			typetext Lastname
+			click imagelocation(text:"Email")+[50,0]
+			typetext controlKey,"a"
+			typetext Email
+			click imagelocation(text:"Company")+[50,0]
+			typetext controlKey,"a"
+			typetext Company
+			click text:"Country"
+			typetext "India" ,return
+			click text: "State"
+			typetext "Telangana" , return
+			click text:"City"
+			typetext pageDown
+			typetext "Hyderabad"
+			click text:"Address 1"
+			typetext "abc"
+			click text:"Zip"
+			typetext "517520"
+			click text:"Phone"
+			typetext "1234567890"
+			click text:"CONTINUE"
+			if ImageFound(text:"Save address?") then click text:"No, thanks"
+		end if
+		if ImageFound(text:"Shipping method") then 
+			click text:"CONTINUE"
+		else
+			waitfor 10 , text :"Shipping method"
+		end if
+		if ImageFound(text:"Payment method") then 
+			click text:"CONTINUE"
+		else
+			waitfor 10 , text :"Payment method"
+		end if
+		if ImageFound(text:"Payment information") then 
+			click text:"CONTINUE"
+		else
+			waitfor 10 , text :"Payment information"
+		end if
+		repeat until ImageFound(imageName:"CONFIRM")
+			typetext downArrow
+		end repeat
+		click FoundImageLocation()
+		assert that ImageFound(text:"Your order has been successfully processed!")
+	else
+		click imageName:"shoppingcart"
+	end if
+end orderProduct
+
+to logout
+	click text:"Log out"
+end logout
+
+to closeNopcommercetab
+	"CommonUtilities/BrowserSC".closeFocusedTab
+end closeNopcommercetab
+
+to closebrowserwindow
+	"CommonUtilities/BrowserSC".terminateCurrentWindow
+end closebrowserwindow
+
+
+

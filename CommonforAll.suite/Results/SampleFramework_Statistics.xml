@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="Sample_test-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2025-03-02 23:12:54 +0530</FirstRun>
+  <LastRun>2025-03-02 23:14:00 +0530</LastRun>
+  <TotalTimeOnSuccess>0.747000</TotalTimeOnSuccess>
+ </script>
+ <script name="CommonUtilities/Config">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-10-29 09:46:50 +0530</FirstRun>
+  <LastRun>2024-10-29 09:53:18 +0530</LastRun>
+  <TotalTimeOnSuccess>4.204000</TotalTimeOnSuccess>
+ </script>
+</statistics>

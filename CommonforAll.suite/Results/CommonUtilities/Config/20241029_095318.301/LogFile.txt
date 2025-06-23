@@ -1,0 +1,3 @@
+﻿2024-10-29 09:53:18.312 +0530	START		Running CommonUtilities/Config.script
+2024-10-29 09:53:22.344 +0530	EndTestCase		(Duration:"4.02", Errors:"0", Exceptions:"0", StartTime:"2024-10-29 09:53:18 +0530", Successes:"1", TestCase:"CommonUtilities/Config.script", Warnings:"0")
+2024-10-29 09:53:22.422 +0530	SUCCESS		Execution Time 0:00:04 CommonUtilities/Config.script

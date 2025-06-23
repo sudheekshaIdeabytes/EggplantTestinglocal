@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="CommonUtilities/Config">
+ <run>
+  <RunDate>2024-10-29 09:46:50.153 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.163000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20241029_094650.153/LogFile.txt</LogFile>
+  <ReturnValue>{chrome:[2,86,1916,1032], default:[], mainContent:[432,138,1450,1031], runWindow:[0,750,530,1029]}</ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2024-10-29 09:53:18.301 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>4.041000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20241029_095318.301/LogFile.txt</LogFile>
+  <ReturnValue>{chrome:[2,86,1916,1032], default:[], mainContent:[432,138,1450,1031], runWindow:[0,750,530,1029]}</ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

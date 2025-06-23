@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="testcases/LaunchApplication_script" package="CommonforAll.suite" timestamp="2025-06-23 12:40:47.812 +0530"
+ tests="1"  failures="1" errors="0" time="2.836000">
+  <properties>
+   <property name="RunDate" value="2025-06-23 12:40:47.812 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="testcases/LaunchApplication.script" assertions="1" status="failure"  time="2.835">
+    <failure type="FAILURE" message="Connection Failed: Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n -- Execution Time 0:00:02 testcases/LaunchApplication.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+﻿return { 
+	default:[],	
+	runWindow:[0,750,530,1029],
+	chrome:[2,86,1916,1032],
+	mainContent:[432,138,1450,1031]
+}
+
+

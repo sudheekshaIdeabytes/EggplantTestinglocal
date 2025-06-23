@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Testcases/LaunchApplication.script",
+				"identifier": "START",
+				"timestamp": "2025-03-26 16:30:49.032 +0530"
+			},
+		{
+				"handlerName": "on_connectsut",
+				"timestamp": "2025-03-26 16:30:49.095 +0530",
+				"message": "Mymachine:(null)",
+				"scriptName": "CommonUtilities/Core.script",
+				"handlerLine": 2,
+				"identifier": "Connect"
+			},
+		{
+				"message": "(Duration:\"20.104\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2025-03-26 16:30:49 +0530\", Successes:\"1\", TestCase:\"Testcases/LaunchApplication.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-03-26 16:31:09.144 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:20 Testcases/LaunchApplication.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2025-03-26 16:31:09.195 +0530"
+			}
+	],
+	"createdTimestamp": "2025-03-26 16:30:49.037 +0530"
+}

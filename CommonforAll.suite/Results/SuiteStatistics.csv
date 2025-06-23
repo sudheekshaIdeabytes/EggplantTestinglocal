@@ -1,0 +1,5 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+Testcases/LaunchApplication,Success,3,1,2025-03-26 16:30:49 +0530,2025-03-27 10:09:56 +0530,0:02:20
+Sample_test-API,Success,3,1,2025-03-02 23:12:54 +0530,2025-03-02 23:14:00 +0530,0:00:00
+CommonUtilities/Config,Success,2,0,2024-10-29 09:46:50 +0530,2024-10-29 09:53:18 +0530,0:00:02
+testcases/LaunchApplication,Failure,1,1,2025-06-23 12:40:47 +0530,2025-06-23 12:40:47 +0530,0:00:00

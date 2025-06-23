@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<runHistory script="Testcases/LaunchApplication">
+ <run>
+  <RunDate>2025-03-26 16:30:49.022 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>20.118000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20250326_163049.022/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-26 17:49:58.881 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>191.467000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20250326_174958.881/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>AssertionFailed -- (false: imagefound(text:&quot;Your registration completed&quot;))</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-03-27 10:09:56.709 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>261.455000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>5</Successes>
+  <LogFile>20250327_100956.709/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-10 15:46:59.203 +0530</RunDate>
+  <Status>Aborted</Status>
+  <Duration>54.813000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250610_154659.203/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 12:40:47.812 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.836000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_124047.812/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:Mymachine on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
+</runHistory>

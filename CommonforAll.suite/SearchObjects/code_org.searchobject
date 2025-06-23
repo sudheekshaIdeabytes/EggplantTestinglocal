@@ -1,0 +1,49 @@
+{
+	"originalcapturelocation": [
+		1042,
+		492,
+		64,
+		64
+	],
+	"lastmodifieddate": 1742987945.375,
+	"createddate": 1723632485.786,
+	"name": "code_org",
+	"lastfounddate": 1723632487.4889998,
+	"ocrcapturestring": "o",
+	"lastfoundlocation": [
+		1042,
+		492,
+		64,
+		64
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 58209,
+				"deleted": true,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[32,32]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"type": "Unknown VNC"
+				},
+				"name": "code_org.png",
+				"connectionname": "MySystem",
+				"type": 1,
+				"connectionserverid": "127.0.0.1",
+				"capturerect": [
+					1042,
+					492,
+					64,
+					64
+				],
+				"connectiontype": "Single System",
+				"capturedocrtext": "o"
+			}
+	]
+}

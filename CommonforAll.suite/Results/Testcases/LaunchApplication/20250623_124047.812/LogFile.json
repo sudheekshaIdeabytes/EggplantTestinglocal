@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running testcases/LaunchApplication.script",
+				"identifier": "START",
+				"timestamp": "2025-06-23 12:40:47.813 +0530"
+			},
+		{
+				"message": "(Duration:\"2.835\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2025-06-23 12:40:47 +0530\", Successes:\"0\", TestCase:\"testcases/LaunchApplication.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2025-06-23 12:40:50.648 +0530"
+			},
+		{
+				"message": "Connection Failed: Unable to connect to Server:Mymachine on port:0\\nInvalid hostname or IP address: No such host is known. \\n -- Execution Time 0:00:02 testcases/LaunchApplication.script",
+				"identifier": "FAILURE",
+				"timestamp": "2025-06-23 12:40:50.695 +0530"
+			}
+	],
+	"createdTimestamp": "2025-06-23 12:40:47.813 +0530"
+}

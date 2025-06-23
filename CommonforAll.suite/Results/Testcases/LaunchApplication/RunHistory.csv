@@ -1,0 +1,6 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2025-03-26 16:30:49.022 +0530,"Success",0:00:20,0,0,0,"20250326_163049.022/LogFile.txt","","",1
+2025-03-26 17:49:58.881 +0530,"Failure",0:03:11,1,0,0,"20250326_174958.881/LogFile.txt","","AssertionFailed -- (false: imagefound(text:""Your registration completed""))",2
+2025-03-27 10:09:56.709 +0530,"Success",0:04:21,0,0,0,"20250327_100956.709/LogFile.txt","","",5
+2025-06-10 15:46:59.203 +0530,"Aborted",0:00:54,1,0,1,"20250610_154659.203/LogFile.txt","","",0
+2025-06-23 12:40:47.812 +0530,"Failure",0:00:02,1,0,0,"20250623_124047.812/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
