@@ -7,13 +7,14 @@ end openSUT
 
 to OpenSUTDAI IPaddress , portnumber , type
 	Connect serverID:IPaddress, portNum:portnumber, type : type ,   password:"TestingIB@123" , username: "Testing-SRV"
+	wait 15
 end OpenSUTDAI
 
 
 to openApplication browser , URL
 	"CommonUtilities/Core".launchURL browser , URL
 	wait 2
-	assert that ImageFound(text:"Welcome to our store")
+assert that ImageFound(text:"Welcome to our store")
 end openApplication
 
 

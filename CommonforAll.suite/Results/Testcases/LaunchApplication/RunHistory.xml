@@ -275,4 +275,17 @@ Invalid hostname or IP address: No such host is known.
   <ErrorMessage>Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Type the name&quot;)&quot; within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,1029))
 </ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 17:19:00.615 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>3.376000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_171900.615/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Type the name&quot;)&quot; within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,1024))
+</ErrorMessage>
+ </run>
 </runHistory>
