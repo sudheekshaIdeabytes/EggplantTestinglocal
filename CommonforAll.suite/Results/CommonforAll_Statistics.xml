@@ -2,10 +2,10 @@
 <statistics>
  <script name="Testcases/LaunchApplication">
   <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>15</NumberOfRuns>
-  <NumberOfFails>11</NumberOfFails>
+  <NumberOfRuns>17</NumberOfRuns>
+  <NumberOfFails>13</NumberOfFails>
   <FirstRun>2025-03-26 16:30:49 +0530</FirstRun>
-  <LastRun>2025-06-23 16:50:31 +0530</LastRun>
+  <LastRun>2025-06-23 16:56:30 +0530</LastRun>
   <TotalTimeOnSuccess>746.617000</TotalTimeOnSuccess>
  </script>
  <script name="Testcases/Justalogstatement">

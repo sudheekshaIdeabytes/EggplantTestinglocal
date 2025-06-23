@@ -222,4 +222,30 @@ Gateway Error: Failed to determine domain and username from input</ErrorMessage>
   <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
 Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 16:54:33.643 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>3.065000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_165433.643/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 16:56:30.461 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>38.099000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_165630.461/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Type the name&quot;)&quot; within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,768))
+</ErrorMessage>
+ </run>
 </runHistory>

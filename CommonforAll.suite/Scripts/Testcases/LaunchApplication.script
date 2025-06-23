@@ -1,8 +1,9 @@
 ﻿
 
 
+"ApplicationUtilities/Nopcommerce".openSUT "71_Machine"
 
-"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"
+(*"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"single system"*)
 
 
 "ApplicationUtilities/Nopcommerce".openApplication "Chrome" , "https://demo.nopcommerce.com/"

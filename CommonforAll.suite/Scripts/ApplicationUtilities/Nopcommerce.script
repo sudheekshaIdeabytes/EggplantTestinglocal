@@ -1,7 +1,7 @@
 ﻿
 to openSUT SUTname
 	"CommonUtilities/Core".ConnectSUT SUTname
-	wait 10
+	wait 15
 end openSUT
 
 
