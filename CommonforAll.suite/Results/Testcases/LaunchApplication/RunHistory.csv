@@ -7,3 +7,4 @@
 2025-06-23 13:04:03.840 +0530,"Failure",0:00:02,1,0,0,"20250623_130403.840/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
 2025-06-23 13:04:48.166 +0530,"Failure",0:00:02,1,0,0,"20250623_130448.166/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
 2025-06-23 13:56:25.276 +0530,"Failure",0:00:02,1,0,0,"20250623_135625.276/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
+2025-06-23 14:51:44.802 +0530,"Failure",0:00:03,1,0,0,"20250623_145144.802/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0

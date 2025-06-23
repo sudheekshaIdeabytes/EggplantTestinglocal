@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <statistics>
+ <script name="Testcases/LaunchApplication">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2025-03-26 16:30:49 +0530</FirstRun>
+  <LastRun>2025-06-23 14:51:44 +0530</LastRun>
+  <TotalTimeOnSuccess>281.573000</TotalTimeOnSuccess>
+ </script>
  <script name="Sample_test-API">
   <LastStatus>Success</LastStatus>
   <NumberOfRuns>3</NumberOfRuns>
@@ -23,13 +31,5 @@
   <FirstRun>2025-06-23 12:40:47 +0530</FirstRun>
   <LastRun>2025-06-23 12:40:47 +0530</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
- </script>
- <script name="Testcases/LaunchApplication">
-  <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>6</NumberOfRuns>
-  <NumberOfFails>4</NumberOfFails>
-  <FirstRun>2025-03-26 16:30:49 +0530</FirstRun>
-  <LastRun>2025-06-23 13:56:25 +0530</LastRun>
-  <TotalTimeOnSuccess>281.573000</TotalTimeOnSuccess>
  </script>
 </statistics>

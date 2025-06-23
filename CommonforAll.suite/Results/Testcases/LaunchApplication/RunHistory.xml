@@ -104,4 +104,18 @@ Invalid hostname or IP address: No such host is known.
 Invalid hostname or IP address: No such host is known. 
 </ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 14:51:44.802 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>3.182000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_145144.802/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:Mymachine on port:0
+Invalid hostname or IP address: No such host is known. 
+</ErrorMessage>
+ </run>
 </runHistory>
