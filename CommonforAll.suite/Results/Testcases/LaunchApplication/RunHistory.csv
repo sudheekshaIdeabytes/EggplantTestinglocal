@@ -14,3 +14,5 @@
 2025-06-23 15:24:12.133 +0530,"Success",0:03:22,0,0,0,"20250623_152412.133/LogFile.txt","","",2
 2025-06-23 15:37:48.015 +0530,"Failure",0:00:02,1,0,0,"20250623_153748.015/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
 2025-06-23 15:45:01.004 +0530,"Failure",0:00:02,1,0,0,"20250623_154501.004/LogFile.txt","","Connection Failed -- Unable to connect to Server:Mymachine on port:0\nInvalid hostname or IP address: No such host is known. \n",0
+2025-06-23 16:20:57.924 +0530,"Failure",0:00:00,1,0,0,"20250623_162057.924/LogFile.txt","","Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0\nGateway Error: Failed to determine domain and username from input",0
+2025-06-23 16:50:31.377 +0530,"Failure",0:00:00,1,0,0,"20250623_165031.377/LogFile.txt","","Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0\nGateway Error: The connection failed at negotiating security settings.",0

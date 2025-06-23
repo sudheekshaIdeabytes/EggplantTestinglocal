@@ -196,4 +196,30 @@ Invalid hostname or IP address: No such host is known.
 Invalid hostname or IP address: No such host is known. 
 </ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 16:20:57.924 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.116000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_162057.924/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: Failed to determine domain and username from input</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 16:50:31.377 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.861000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_165031.377/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
 </runHistory>
