@@ -3,9 +3,9 @@
 
 (*"ApplicationUtilities/Nopcommerce".openSUT "71_Machine"*)
 
-"ApplicationUtilities/Nopcommerce".OpenSUTDAI "192.168.1.171",3389,"RDP"
+(*"ApplicationUtilities/Nopcommerce".OpenSUTDAI "192.168.1.171",3389,"RDP"*)
 
-(*"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"Single system"*)
+"ApplicationUtilities/Nopcommerce".OpenSUTDAI "127.0.0.1",0,"Single system"
 
 
 
