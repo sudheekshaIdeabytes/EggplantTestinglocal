@@ -402,4 +402,56 @@ Unexpected Connection error: ERRCONNECT_PASSWORD_CERTAINLY_EXPIRED</ErrorMessage
   <ErrorMessage>Connection Failed -- Unable to connect to Server:192.168.1.171 on port:3389
 Unexpected Connection error: ERRCONNECT_PASSWORD_CERTAINLY_EXPIRED</ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-24 17:23:28.476 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>9.803000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250624_172328.476/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-24 17:25:07.304 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.220000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250624_172507.304/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-24 17:30:37.802 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>2.204000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250624_173037.802/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-24 17:58:13.602 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>48.059000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250624_175813.602/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Type the name&quot;)&quot; within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,768))
+</ErrorMessage>
+ </run>
 </runHistory>
