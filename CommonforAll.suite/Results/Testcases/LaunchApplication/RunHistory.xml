@@ -324,4 +324,43 @@ Invalid hostname or IP address: No such host is known.
   <ReturnValue></ReturnValue>
   <ErrorMessage>Image Not Found -- click Error - No Text Found On Screen: &quot;(TEXT:&quot;register&quot;)&quot;. Text not found.</ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-23 17:53:47.433 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.900000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_175347.433/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-23 17:55:14.539 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.795000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250623_175514.539/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-24 14:28:53.508 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>3.736000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250624_142853.508/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
 </runHistory>

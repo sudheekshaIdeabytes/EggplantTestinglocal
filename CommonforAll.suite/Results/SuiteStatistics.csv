@@ -1,6 +1,6 @@
 ﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
-Testcases/LaunchApplication,Failure,23,19,2025-03-26 16:30:49 +0530,2025-06-23 17:33:33 +0530,0:03:06
-Testcases/Justalogstatement,Success,2,0,2025-06-23 14:54:33 +0530,2025-06-23 14:55:38 +0530,0:00:00
+Testcases/LaunchApplication,Failure,26,22,2025-03-26 16:30:49 +0530,2025-06-24 14:28:53 +0530,0:03:06
 Sample_test-API,Success,3,1,2025-03-02 23:12:54 +0530,2025-03-02 23:14:00 +0530,0:00:00
+Testcases/Justalogstatement,Success,2,0,2025-06-23 14:54:33 +0530,2025-06-23 14:55:38 +0530,0:00:00
 CommonUtilities/Config,Success,2,0,2024-10-29 09:46:50 +0530,2024-10-29 09:53:18 +0530,0:00:02
 testcases/LaunchApplication,Failure,1,1,2025-06-23 12:40:47 +0530,2025-06-23 12:40:47 +0530,0:00:00

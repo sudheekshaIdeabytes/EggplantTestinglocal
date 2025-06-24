@@ -24,3 +24,6 @@
 2025-06-23 17:24:21.647 +0530,"Failure",0:00:30,1,0,0,"20250623_172421.647/LogFile.txt","","AssertionFailed -- (false: ImageFound(text:""Welcome to our store""))",0
 2025-06-23 17:27:47.864 +0530,"Failure",0:01:58,1,1,1,"20250623_172747.864/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""product""",2
 2025-06-23 17:33:33.929 +0530,"Failure",0:00:51,1,0,1,"20250623_173333.929/LogFile.txt","","Image Not Found -- click Error - No Text Found On Screen: ""(TEXT:""register"")"". Text not found.",1
+2025-06-23 17:53:47.433 +0530,"Failure",0:00:00,1,0,0,"20250623_175347.433/LogFile.txt","","Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0\nGateway Error: The connection failed at negotiating security settings.",0
+2025-06-23 17:55:14.539 +0530,"Failure",0:00:00,1,0,0,"20250623_175514.539/LogFile.txt","","Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0\nGateway Error: The connection failed at negotiating security settings.",0
+2025-06-24 14:28:53.508 +0530,"Failure",0:00:03,1,0,0,"20250624_142853.508/LogFile.txt","","Connection Failed -- Unable to connect to Server:127.0.0.1 on port:0\nGateway Error: The connection failed at negotiating security settings.",0
