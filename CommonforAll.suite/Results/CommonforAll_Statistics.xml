@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <statistics>
- <script name="Testcases/LaunchApplication">
-  <LastStatus>Failure</LastStatus>
-  <NumberOfRuns>33</NumberOfRuns>
-  <NumberOfFails>29</NumberOfFails>
-  <FirstRun>2025-03-26 16:30:49 +0530</FirstRun>
-  <LastRun>2025-06-24 17:58:13 +0530</LastRun>
-  <TotalTimeOnSuccess>746.617000</TotalTimeOnSuccess>
+ <script name="Sample_test-API">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2025-03-02 23:12:54 +0530</FirstRun>
+  <LastRun>2025-03-02 23:14:00 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
  </script>
  <script name="Testcases/Justalogstatement">
   <LastStatus>Success</LastStatus>
@@ -15,14 +15,6 @@
   <FirstRun>2025-06-23 14:54:33 +0530</FirstRun>
   <LastRun>2025-06-23 14:55:38 +0530</LastRun>
   <TotalTimeOnSuccess>0.541000</TotalTimeOnSuccess>
- </script>
- <script name="Sample_test-API">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>3</NumberOfRuns>
-  <NumberOfFails>1</NumberOfFails>
-  <FirstRun>2025-03-02 23:12:54 +0530</FirstRun>
-  <LastRun>2025-03-02 23:14:00 +0530</LastRun>
-  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
  </script>
  <script name="CommonUtilities/Config">
   <LastStatus>Success</LastStatus>
@@ -39,5 +31,13 @@
   <FirstRun>2025-06-23 12:40:47 +0530</FirstRun>
   <LastRun>2025-06-23 12:40:47 +0530</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="Testcases/LaunchApplication">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>35</NumberOfRuns>
+  <NumberOfFails>31</NumberOfFails>
+  <FirstRun>2025-03-26 16:30:49 +0530</FirstRun>
+  <LastRun>2025-06-25 10:22:32 +0530</LastRun>
+  <TotalTimeOnSuccess>746.617000</TotalTimeOnSuccess>
  </script>
 </statistics>

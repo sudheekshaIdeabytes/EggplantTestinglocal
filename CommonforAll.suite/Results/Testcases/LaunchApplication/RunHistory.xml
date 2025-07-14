@@ -454,4 +454,30 @@ Gateway Error: The connection failed at negotiating security settings.</ErrorMes
   <ErrorMessage>Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Type the name&quot;)&quot; within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,768))
 </ErrorMessage>
  </run>
+ <run>
+  <RunDate>2025-06-24 18:07:16.534 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>42.456000</Duration>
+  <Errors>1</Errors>
+  <Warnings>1</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250624_180716.534/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- WaitFor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;Type the name&quot;)&quot; within 0.00 seconds. Text not found.  Restricted Search Rectangle ((0,750),(530,1029))
+</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2025-06-25 10:22:32.866 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>13.433000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20250625_102232.866/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Connection Failed -- Unable to connect to Server:127.0.0.1 on port:52711
+Gateway Error: The connection failed at negotiating security settings.</ErrorMessage>
+ </run>
 </runHistory>
