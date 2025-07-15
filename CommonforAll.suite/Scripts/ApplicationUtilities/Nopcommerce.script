@@ -29,7 +29,7 @@ to regsiter gender , Firstname , Lastname , email , company , password , confirm
 	typetext Lastname
 	click imagelocation(text:"Email")+[50,0]
 	put Email into global Registered_Email
-	typetext Registered_Email
+	typetext global Registered_Email
 	click imagelocation(text:"Company name")+[50,0]
 	typetext company
 	wait 0.5
