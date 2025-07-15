@@ -11,9 +11,9 @@ connect "Mymachine"
 
 "ApplicationUtilities/Nopcommerce".openApplication "Chrome" , "https://demo.nopcommerce.com/"
 
-"ApplicationUtilities/Nopcommerce".regsiter "Female" , "sudhee" , "gunu", "abc@gmail.com" , "Ideabytes" , "123456" , "123456"
+"ApplicationUtilities/Nopcommerce".regsiter "Female" , "sudhee" , "gunu", "Testing"&random(1, 100)&"@gmail.com" , "Ideabytes" , "123456" , "123456"
 
-"ApplicationUtilities/Nopcommerce".login "abc@gmail.com" , "123456"
+"ApplicationUtilities/Nopcommerce".login global Registered_Email , "123456"
 "ApplicationUtilities/Nopcommerce".addToCart
 (*"ApplicationUtilities/Nopcommerce".orderProduct "sudhee" ,"gunu" ,"abc@gmail.com" ,"Ideabytes"*)
 "ApplicationUtilities/Nopcommerce".logout

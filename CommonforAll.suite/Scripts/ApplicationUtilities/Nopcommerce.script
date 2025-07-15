@@ -8,6 +8,7 @@ end openSUT
 to OpenSUTDAI IPaddress , portnumber , type
 	Connect serverID:IPaddress, portNum:portnumber, type : type ,   password:"Nanna@12345678" , username: "IDEABYTES\sudheeksha.gunuputi"
 	wait 15
+	logsuccess "Connected to single system successfully"
 end OpenSUTDAI
 
 
@@ -27,7 +28,8 @@ to regsiter gender , Firstname , Lastname , email , company , password , confirm
 	click Imagelocation(text:"Last name")+[70,0]
 	typetext Lastname
 	click imagelocation(text:"Email")+[50,0]
-	typetext email
+	put Email into global Registered_Email
+	typetext Registered_Email
 	click imagelocation(text:"Company name")+[50,0]
 	typetext company
 	wait 0.5
@@ -55,7 +57,7 @@ to regsiter gender , Firstname , Lastname , email , company , password , confirm
 end regsiter
 
 
-to login Email, Password
+to login Registered_Email, Password
 	if imagefound(text:"Log out") then
 		exit login
 	else
@@ -63,7 +65,7 @@ to login Email, Password
 		waitfor 5 , text:"Welcome, Please Sign In!"
 		typetext controlKey,"a"
 		click imagelocation(text:"Email")
-		typetext Email
+		typetext Registered_Email
 		click imagelocation(text:"Password")
 		typetext controlKey,"a"
 		typetext Password
