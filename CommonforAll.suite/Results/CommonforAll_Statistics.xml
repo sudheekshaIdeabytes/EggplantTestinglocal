@@ -1,5 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <statistics>
+ <script name="Testcases/Justalogstatement">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2025-06-23 14:54:33 +0530</FirstRun>
+  <LastRun>2025-08-19 15:19:40 +0530</LastRun>
+  <TotalTimeOnSuccess>0.764000</TotalTimeOnSuccess>
+ </script>
  <script name="Sample_test-API">
   <LastStatus>Success</LastStatus>
   <NumberOfRuns>3</NumberOfRuns>
@@ -7,14 +15,6 @@
   <FirstRun>2025-03-02 23:12:54 +0530</FirstRun>
   <LastRun>2025-03-02 23:14:00 +0530</LastRun>
   <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
- </script>
- <script name="Testcases/Justalogstatement">
-  <LastStatus>Success</LastStatus>
-  <NumberOfRuns>2</NumberOfRuns>
-  <NumberOfFails>0</NumberOfFails>
-  <FirstRun>2025-06-23 14:54:33 +0530</FirstRun>
-  <LastRun>2025-06-23 14:55:38 +0530</LastRun>
-  <TotalTimeOnSuccess>0.541000</TotalTimeOnSuccess>
  </script>
  <script name="CommonUtilities/Config">
   <LastStatus>Success</LastStatus>
