@@ -1,0 +1,34 @@
+
+to handle The_application_launches_on_the_chrome_browser
+	typetext windowsKey , "r"
+	typetext "chrome" && "https:\\demo.nopcommerce.com\" &&"--start --maximize", return
+	waitfor 20 , text:"Welcome to our store"
+end The_application_launches_on_the_chrome_browser
+
+
+
+to handle Login_option_is_avilable
+	if imagefound(text:"Log in",casesensitive:yes) 
+	then 
+		click FoundImageLocation()
+	else
+		log "You have already logged in"
+	end if
+end Login_option_is_avilable
+
+to handle Enter_Email_address
+	common.textEntry "Email" ,"Sample@gmail.com"
+end Enter_Email_address
+
+to handle Enter_password
+	common.textEntry "password","Welcome@123"
+end Enter_password
+
+to handle click_on_Login_button
+	click text:"LOG IN",casesensitve:yes
+end click_on_Login_button
+
+
+to LogSuccessMessage
+	log "Successfully logged in to Nopcommerce"
+end LogSuccessMessage
