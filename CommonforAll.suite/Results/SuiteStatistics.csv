@@ -1,6 +1,10 @@
 ﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
-Testcases/Justalogstatement,Success,3,0,2025-06-23 14:54:33 +0530,2025-08-19 15:19:40 +0530,0:00:00
-Sample_test-API,Success,3,1,2025-03-02 23:12:54 +0530,2025-03-02 23:14:00 +0530,0:00:00
-CommonUtilities/Config,Success,2,0,2024-10-29 09:46:50 +0530,2024-10-29 09:53:18 +0530,0:00:02
-testcases/LaunchApplication,Failure,1,1,2025-06-23 12:40:47 +0530,2025-06-23 12:40:47 +0530,0:00:00
 Testcases/LaunchApplication,Failure,35,31,2025-03-26 16:30:49 +0530,2025-06-25 10:22:32 +0530,0:03:06
+testcases/LaunchApplication,Failure,1,1,2025-06-23 12:40:47 +0530,2025-06-23 12:40:47 +0530,0:00:00
+Testcases/Justalogstatement,Success,3,0,2025-06-23 14:54:33 +0530,2025-08-19 15:19:40 +0530,0:00:00
+LoginNopcommerce-Feature,Success,8,3,2025-08-20 12:07:34 +0530,2025-08-21 12:22:29 +0530,0:01:43
+Sample_test-API,Success,3,1,2025-03-02 23:12:54 +0530,2025-03-02 23:14:00 +0530,0:00:00
+LoginNopcommerce,Success,9,3,2025-08-20 13:00:59 +0530,2025-08-21 15:19:14 +0530,0:00:54
+JustaLogMessage,Success,6,1,2025-08-20 12:03:56 +0530,2025-08-20 12:44:15 +0530,0:01:21
+CommonUtilities/Config,Success,2,0,2024-10-29 09:46:50 +0530,2024-10-29 09:53:18 +0530,0:00:02
+Testing-API,Success,1,0,2025-08-21 15:34:28 +0530,2025-08-21 15:34:28 +0530,0:00:00

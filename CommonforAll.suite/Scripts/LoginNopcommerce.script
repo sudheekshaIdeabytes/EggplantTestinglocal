@@ -1,4 +1,7 @@
 
+
+(*RunFeature "LoginNopcommerce"
+
 to handle The_application_launches_on_the_chrome_browser
 	typetext windowsKey , "r"
 	typetext "chrome" && "https:\\demo.nopcommerce.com\" &&"--start --maximize", return
@@ -8,7 +11,7 @@ end The_application_launches_on_the_chrome_browser
 
 
 to handle Login_option_is_avilable
-	if imagefound(text:"Log in",casesensitive:yes) 
+	if imagefound(text:"Log in",caseSensitive:yes) 
 	then 
 		click FoundImageLocation()
 	else
@@ -16,12 +19,20 @@ to handle Login_option_is_avilable
 	end if
 end Login_option_is_avilable
 
+(*to handle click_on_the_login_option
+	//pass
+end click_on_the_login_option*)
+
 to handle Enter_Email_address
-	common.textEntry "Email" ,"Sample@gmail.com"
+	waitfor 20,text:"Email"
+	click text:"Email"
+	typetext "Sample@123.com"
 end Enter_Email_address
 
 to handle Enter_password
-	common.textEntry "password","Welcome@123"
+	waitfor 20,text:"Password"
+	click text:"password"
+	typetext"Welcome@123"
 end Enter_password
 
 to handle click_on_Login_button
@@ -31,4 +42,14 @@ end click_on_Login_button
 
 to LogSuccessMessage
 	log "Successfully logged in to Nopcommerce"
-end LogSuccessMessage
+end LogSuccessMessage*)
+
+log Learnhanlders()
+
+function Learnhanlders
+	log "command"
+
+	return "Fun"
+end Learnhanlders
+
+
