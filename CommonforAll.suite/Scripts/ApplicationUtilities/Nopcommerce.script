@@ -8,6 +8,10 @@ end openSUT
 to OpenSUTDAI IPaddress , portnumber , type
 	log "Connecting to Single system"
 	put -
+	log IPaddress
+	log portnumber
+	log type
+	put -
 	Connect serverID:IPaddress, portNum:portnumber, type : type ,   password:"Narasimha@1234" , username: "IDEABYTES\sudheeksha.gunuputi"
 	wait 15
 	logsuccess "Connected to single system successfully"
