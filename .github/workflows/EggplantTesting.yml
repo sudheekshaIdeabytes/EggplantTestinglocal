@@ -1,0 +1,48 @@
+  - name: Eggplant Runner
+  # You may pin to the exact commit or the version.
+  # uses: keysight-eggplant/eggplant-github-action@37b8168f146dc03a42cbf82c641452abef0082c2
+  uses: keysight-eggplant/eggplant-github-action@v1.0.19
+  with:
+    # The URL of Eggplant DAI server, http(s)://dai_server_hostname:portnumber
+    serverURL: http://localhost:8000/
+    # The ID of the Eggplant DAI test configuration that you want to run, e.g. 09c48b7d-fc5b-481d-af80-fcffad5d9587
+    testConfigID: f81fcc6b-d482-4b14-bf8d-1c8ebac7eb67
+    # The name of the test config that you want to run
+    testConfigName: TestingParamerters(Generate Unique)
+    # DAI model name for the specified test configuration.(Use this argument if only testConfigName are provided)
+    modelName: MultipleParameters
+    # DAI suite name for the specified test configuration.(Use this argument if only testConfigName are provided)
+    suiteName: Generation_types.suite
+    # The client ID to use to authenticate with the Eggplant DAI server
+    clientID: client:dai:api:integration:be3881e0-8acc-44df-a4b1-33fe1a0ee284
+    # The client secret to use to authenticate with the Eggplant DAI server  [env var: DAI_CLIENT_SECRET; required]
+    clientSecret: TqVZb3XQba7aMFc2mpnazMjHh6X2j2HT
+    # The timeout in seconds for each HTTP request to the Eggplant DAI server  [default: 30]
+    requestTimeout: # optional, default is 30
+    # The number of times to attempt each HTTP request to the Eggplant DAI server  [default: 5]
+    requestRetries: # optional, default is 5
+    # The exponential backoff factor between each HTTP request  [default: 0.5]
+    backoffFactor: # optional, default is 0.5
+    # The logging level  [default: INFO]
+    logLevel: # optional, default is INFO
+    # The path to an alternative Certificate Authority pem file
+    CACertPath: # optional
+    # Location to store the test results generated from test configuration execution
+    testResultPath: # optional
+    # The path to eggplant runner CLI executable
+    eggplantRunnerPath: # optional
+    # The global parameter(s) to override in the format parameter_name=parameter_value
+    parameters: # optional
+    # The path to a user-created JSON file that contains the global parameters you want to override
+    parametersFilePath: # optional
+    # The filter to execute specific step within a test configuration in the form of filter_name=filter_value
+    filterBy: # optional
+    # The path to a user-created JSON file that contains all the filters to execute specific steps within a test configuration
+    filterByJson: # optional
+    # The UUID of a previously executed test configuration definition to be used in the current test configuration run
+    previousTaskInstanceID: # optional
+    # Perform a dry run only
+    dryRun: # optional
+    # Engineering/Development only: Personal Access Token to download CLI exe from GitLab Packages.
+    gitlabAccessToken: # optional
+          
