@@ -24,7 +24,25 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
+      - name: Eggplant Runner
+  # You may pin to the exact commit or the version.
+  # uses: keysight-eggplant/eggplant-github-action@37b8168f146dc03a42cbf82c641452abef0082c2
+        uses: keysight-eggplant/eggplant-github-action@v1.0.19
+        with:
+          # The URL of Eggplant DAI server, http(s)://dai_server_hostname:portnumber
+          serverURL: http://192.168.1.81:8000/
+          # The ID of the Eggplant DAI test configuration that you want to run, e.g. 09c48b7d-fc5b-481d-af80-fcffad5d9587
+          testConfigID: f333e68f-e1b2-4ed2-b879-ad4490d005d6
+          # The name of the test config that you want to run
+          testConfigName: Ambika_Test
+          # DAI model name for the specified test configuration.(Use this argument if only testConfigName are provided)
+          modelName: Test_kcom
+          # DAI suite name for the specified test configuration.(Use this argument if only testConfigName are provided)
+          suiteName: Kcom_Migration.suite
+          # The client ID to use to authenticate with the Eggplant DAI server
+          clientID: client:dai:api:integration:3a2f5e12-d2d4-43c4-aafc-5cf3ebee53ca
+          # The client secret to use to authenticate with the Eggplant DAI server  [env var: DAI_CLIENT_SECRET; required]
+          clientSecret: MivJfw5CciwB2g3GF92DbFfrTtmIvZgV
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
